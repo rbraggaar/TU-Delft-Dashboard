@@ -1,0 +1,76 @@
+27-May-2016 11:41:17.445 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+27-May-2016 11:41:20.340 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+27-May-2016 11:41:43.766 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+27-May-2016 11:41:43.766 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+27-May-2016 11:42:09.396 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+27-May-2016 14:22:16.599 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+27-May-2016 14:22:19.611 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+27-May-2016 14:22:41.805 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+27-May-2016 14:22:41.805 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+27-May-2016 14:25:34.929 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+27-May-2016 18:25:21.603 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+27-May-2016 18:25:27.244 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+27-May-2016 18:25:40.561 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Exception sending context initialized event to listener instance of class org.geoserver.platform.GeoServerContextLoaderListener
+ org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'GeoSeverTileLayerCatalog' defined in URL [jar:file:/C:/Users/Bart/Dropbox/Synthesis%20Project/16.%20Geoweb/dashboard/dashboard_in_sight/geoweb16/apache-tomcat-8.0.33/webapps/geoserver/WEB-INF/lib/gs-gwc-2.8.3.jar!/geowebcache-geoserver-context.xml]: Cannot resolve reference to bean 'gwcXmlConfig' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'gwcXmlConfig' defined in URL [jar:file:/C:/Users/Bart/Dropbox/Synthesis%20Project/16.%20Geoweb/dashboard/dashboard_in_sight/geoweb16/apache-tomcat-8.0.33/webapps/geoserver/WEB-INF/lib/gs-gwc-2.8.3.jar!/geowebcache-core-context.xml]: Invocation of init method failed; nested exception is org.geowebcache.config.ConfigurationException: Error parsing config file C:\Users\Bart\AppData\Local\Temp\geowebcache\geowebcache.xml
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:329)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:107)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:630)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:148)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1035)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:939)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:607)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:925)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:472)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:388)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:293)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
+	at org.geoserver.platform.GeoServerContextLoaderListener.contextInitialized(GeoServerContextLoaderListener.java:23)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4811)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5251)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:940)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1816)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'gwcXmlConfig' defined in URL [jar:file:/C:/Users/Bart/Dropbox/Synthesis%20Project/16.%20Geoweb/dashboard/dashboard_in_sight/geoweb16/apache-tomcat-8.0.33/webapps/geoserver/WEB-INF/lib/gs-gwc-2.8.3.jar!/geowebcache-core-context.xml]: Invocation of init method failed; nested exception is org.geowebcache.config.ConfigurationException: Error parsing config file C:\Users\Bart\AppData\Local\Temp\geowebcache\geowebcache.xml
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1455)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:323)
+	... 31 more
+Caused by: org.geowebcache.config.ConfigurationException: Error parsing config file C:\Users\Bart\AppData\Local\Temp\geowebcache\geowebcache.xml
+	at org.geowebcache.config.XMLConfiguration.loadConfiguration(XMLConfiguration.java:434)
+	at org.geowebcache.config.XMLConfiguration.loadConfiguration(XMLConfiguration.java:420)
+	at org.geowebcache.config.XMLConfiguration.afterPropertiesSet(XMLConfiguration.java:198)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1514)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1452)
+	... 38 more
+Caused by: java.io.FileNotFoundException: C:\Users\Bart\AppData\Local\Temp\geowebcache\geowebcache.xml (The process cannot access the file because it is being used by another process)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.geowebcache.config.XMLConfiguration.loadConfiguration(XMLConfiguration.java:427)
+	... 42 more
+
+27-May-2016 18:25:40.569 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+27-May-2016 18:25:45.193 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+27-May-2016 18:25:45.193 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+27-May-2016 18:37:54.365 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+27-May-2016 18:37:56.725 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+27-May-2016 18:38:21.907 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+27-May-2016 18:38:21.907 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()

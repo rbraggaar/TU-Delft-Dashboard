@@ -1,0 +1,297 @@
+/*PAGE LAYOUT**********************************************************************************************************/
+/*SETUP****************************************************************************************************************/
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*BOX CLASS************************************************************************************************************/
+pre {
+	font-family: Helvetica, Verdana, sans-serif;
+}
+
+h4 {
+	font-style: bold;
+	font-size: 19px;
+}
+
+.box {
+    font-family: Helvetica, Verdana, sans-serif;
+    font-size: 1em;
+}
+
+/*HEADER***************************************************************************************************************/
+.box1 {
+	height: 80px;
+    background-color: #FF6133;
+    color:white;
+    clear:both;
+    width: 100%;
+    position:fixed;
+	z-index:1;
+}
+
+/*IMAGE*/
+.box1_1 {
+    margin-top:10px;
+    padding:1em;
+    position: absolute;
+    right: 0px;
+    top: -25px;
+    height:80px;
+}
+
+#title_img {
+    height:50px;
+    padding:10px;
+}
+
+/*TITLE*/
+.box1_2 {
+  position: absolute;
+  top:-5px;
+  margin-top:10px;
+}
+
+/*BODY*****************************************************************************************************************/
+.box2 {
+    position:absolute;
+    top:80px;
+	height: 800px;
+	/* width: 300px; */
+	width: 100%;
+}
+.title {
+    padding: 1em;
+}
+
+/*MENU*/
+.box2_1 {
+    /* width:300px; */
+	width: 15%;
+	height:20px;
+    float:left;
+	position:relative;
+	margin-left:15px;
+}
+
+/* SLIDERS ****************************** */
+#slider1total {
+	position: relative;
+	top: 0px;
+}
+
+#slider1 {
+	position: relative;
+	width: 90%;
+	margin: 20px;
+	top:-92px;
+}
+
+#slider1bg {
+	position: relative;	
+	top: -15px;
+	padding: 10px;
+	width: 100%;
+	left:-5px;
+}
+
+#levels {
+    position: relative;
+    top:-90px;
+    left:10px;
+}
+
+#slider2 {
+	top:15px;
+	width: 90%;
+	margin:20px;
+}
+
+#geomtype {
+	position: absolute;
+	top: 225px;
+	visibility:hidden;
+}
+
+
+
+/* DATE SELECTOR ------------- */
+#dateSelect {
+	position: absolute;
+	top: 250px;
+	margin-right:15px;
+}
+
+#dateIcon {
+	position:relative;
+	float:right;
+	right:5px;
+	top:-22px;
+	z-index:50;
+}
+
+#datepicker {
+	font-size:1em;
+	font-family:Helvetica,Verdana,sans-serif;
+	width:100%;
+	z-index:80;
+}
+
+#chartsButton {
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    z-index:99;
+}
+
+/* legend colors */
+#legend th {
+	font-size: 14px;
+}
+
+#legendt {
+	position: relative;
+	top: 270px;	
+}
+
+#legend td {
+	width:50%;
+}
+
+#legend {
+	border: 1px solid black;
+	position: absolute;
+	top: 640px;
+	font-size: 12px;
+    width: 100%;
+    text-align:center;
+}
+
+/*MAP*/
+#map {
+    position:relative;
+    top:0px;
+    left: 0px;
+    width: 83%;
+    height: 790px;
+    float:right;
+}
+
+/*STATISTICS*/
+#stats {
+	visibility:hidden;
+	background-color: white;
+}
+
+.box2_3 {
+    position:absolute;
+    float:right;
+	right:0px;
+    height:800px;
+    top:0px;
+    width:700px;
+	margin-left	:15px;
+}
+
+#statt {
+	margin-left:15px;
+}
+
+#statistics1 {
+    position:absolute;
+    float:right;
+    top: 80px;
+    width: 600px;
+}
+
+#statistics2 {
+    position:absolute;
+    float:right;
+    top: 400px;
+	width: 600px;
+}
+
+/*FOOTER***************************************************************************************************************/
+.box3 {
+    position:absolute;
+    top:790px;
+    height:70px;
+    width:100%;
+    background-color:#FF6133;
+    color:white;
+    text-align: end;
+    clear:both;
+}
+
+.box3_1 {
+    font-size: 1.5em;
+    margin:20px;
+}
+
+/*LINKS****************************************************************************************************************/
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color:#FFAB93;
+}
+
+/*MAP BUTTONS**********************************************************************************************************/
+.control {
+    /*BUTTON POSITION*/
+    position: absolute;
+    z-index: 1000;
+    top:1000px;
+}
+
+.control.tilt {
+    top: 0;
+}
+
+.control.rotation {
+    top: 45px;
+}
+
+.control.zoom {
+    top: 90px;
+}
+
+.control.zoom button{
+    font-weight: normal;
+}
+
+.control button {
+    width: 30px;
+    height: 30px;
+    margin: 15px 0 0 15px;
+    border: 1px solid #999999;
+    background: #ffffff;
+    opacity: 0.6;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #666666;
+    font-weight: bold;
+    text-align: center;
+}
+
+.control button:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+.noUi-horizontal.noUi-extended {
+	padding-right: 32px;
+}
+.noUi-horizontal.noUi-extended .noUi-handle {
+	left: -1px;
+}
+.noUi-horizontal.noUi-extended .noUi-origin  {
+	right: -32px;
+}
+

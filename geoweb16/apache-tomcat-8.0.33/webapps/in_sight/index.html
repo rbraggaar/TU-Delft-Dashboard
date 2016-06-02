@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<!--The head section contains metadata about the web page--------------------------------------------------------------> 
+	<head>
+		<script src="OSMBuildings/OSMBuildings.js"></script>
+		<script src="lib/pikaday.js"></script>
+		<script src="scripts/main.js"></script>
+		<script src="scripts/buildingColor.js"></script>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link type="text/css" rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/pikaday.css">
+		<link type="text/css" rel="stylesheet" href="OSMBuildings/OSMBuildings.css">
+		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.19.0/mapbox-gl.css' rel='stylesheet' />
+		<link rel="stylesheet" href="lib/noUiSlider.8.5.1/nouislider.min.css">
+		<title>Dashboard | Project in_sight</title>
+	</head>
+<!--  checkCookie() -->
+<!--actual content starts here----------------------------------------------------------------------------------------->
+<body onload="clearr(), setLegend(), startTime()">
+<noscript style="font-size:40px;"><strong>Sorry, your browser does not support JavaScript!</strong></noscript>
+ 
+<!--HEADER------------------------------------------------------------------------------------------------------------->
+    <div class="box box1">
+		<div class="box box1_2">
+            <a href="index.html" title="Home"><img id="title_img" src="data/title_white.png"/></a>
+        </div>
+        
+		<div class="box box1_1">
+            <h1>TU Delft Occupation</h1>
+        </div>  
+    </div>
+
+<!--BODY--------------------------------------------------------------------------------------------------------------->
+    <div class="box box2">
+
+        <!-- MENU -->
+        <div class="box box2_1">
+			<h4 id="user">Welcome, user</h4>
+			<div id="slider1total" class="slider noUi-extended">
+				<h4>Select spatial level</h4>
+				<img id="slider1bg" src="data/slider1bg.png">
+				<div class="sliders" id="slider1" title="Select spatial level"></div>
+				<pre id="levels">Campus   |     Building     |       Floor</pre>
+			</div>
+
+			<div id="geomtype">
+				<table>
+					<tr>
+						<td><button onclick="editGeomType('g01_newcampusgeom')">Realistic Geometry</button></td>
+						<td><button onclick="editGeomType('g01_centerpointbuffers')">Barchart Geometry</button></td>
+					</tr>
+				</table>
+			</div>
+			<div id="dateSelect">
+				<h4>Select a date</h4>
+				<p><i>Note:</i> Only dates for which data is available can be selected.</p>
+				<div>
+					<input type="text" id="datepicker" value="Pick a date: ">
+					<div id="dateIcon">
+					<img  src="data/icons/date.png" title="Open dropdown menu"></div>
+				</div>
+				<h4>Select a time</h4>
+				<div class="sliders" id="slider2" title="Select time"></div>
+			</div>
+			<h4 id="legendt">Legend</h4>
+			<table id="legend">
+				<th>Values</th> <th>Colours</th>
+				<tr>
+					<td>*</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>*</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>*</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>*</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>*</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>*</td>
+					<td></td>
+				</tr>
+			</table>
+        </div>
+<!--
+        <!-- BUTTONS
+
+            <div class="control tilt">
+                <button class="dec">&#8601;</button>
+                <button class="inc">&#8599;</button>
+            </div>
+
+            <div class="control rotation">
+                <button class="inc">&#8630;</button>
+                <button class="dec">&#8631;</button>
+            </div>
+
+            <div class="control zoom">
+                <button class="dec">-</button>
+                <button class="inc">+</button>
+            </div>
+
+-->
+        <!-- MAP -->
+        <div class="box box2_2">
+            <div id="map"></div>
+            <img id="chartsButton" src="data/icons/chartsicon.png" title="Click to open charts" onclick="toggleStats()"   >
+        </div>
+        
+        <!-- STATISTICS -->
+        <div id="stats"class="box box2_3">
+			<h3 id="statt">Statistics</h3>
+            <div id="statistics1">
+                <!-- chart 1 -->
+                <canvas id="chart1"></canvas>
+            </div>
+
+            <div id="statistics2">
+                <!-- chart 2 -->
+                <canvas id="chart2"></canvas>
+            </div>
+        </div>
+
+<!--FOOTER------------------------------------------------------------------------------------------------------------->
+    <div class="box box3">
+		<div class="box box3_1">
+        <a href="about.html" class="link">About</a> |
+		<a href="privacy.html" class="link">Privacy</a> |
+		<a href="contact.html" class="link">Contact</a>
+        </div>
+    </div>
+
+</div>
+<!-- scripts are loaded when the page has finished loading -->
+<script src="scripts/chart1.js"></script>
+<script src="lib/moment.js"></script>
+<script src="scripts/timeDate.js"></script>
+<script src="lib/wNumb.js"></script>
+<script src="lib/pikaday.js"></script>
+<script src="scripts/main.js"></script>
+
+<script src="lib/chart.js"></script>
+
+<script src="scripts/chart2.js"></script>
+
+<script src="lib/wfsGeojson.js"></script>
+<script src="lib/localGeojson.js"></script>
+<script src="scripts/wfs_buildings.js"></script>
+
+<script src="lib/nouislider.js"></script>
+<script src="scripts/sliders.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<layer>
+  <name>g01_newcampusgeom</name>
+  <id>LayerInfoImpl-1a4fd24f:15512180b72:-7caa</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-1a4fd24f:15512180b72:-7cab</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

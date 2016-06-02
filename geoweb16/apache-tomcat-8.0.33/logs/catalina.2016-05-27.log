@@ -1,0 +1,593 @@
+27-May-2016 11:40:56.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+27-May-2016 11:40:56.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+27-May-2016 11:40:56.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+27-May-2016 11:40:56.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-May-2016 11:40:56.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-May-2016 11:40:56.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+27-May-2016 11:40:56.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jre1.8.0_91
+27-May-2016 11:40:56.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_91-b14
+27-May-2016 11:40:56.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-May-2016 11:40:56.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+27-May-2016 11:40:56.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+27-May-2016 11:40:56.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\conf\logging.properties
+27-May-2016 11:40:56.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-May-2016 11:40:56.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\endorsed
+27-May-2016 11:40:56.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+27-May-2016 11:40:56.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+27-May-2016 11:40:56.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\temp
+27-May-2016 11:40:56.390 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jre1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;.
+27-May-2016 11:40:56.638 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-May-2016 11:40:56.760 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-May-2016 11:40:56.760 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-May-2016 11:40:56.775 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-May-2016 11:40:56.775 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 870 ms
+27-May-2016 11:40:56.807 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+27-May-2016 11:40:56.807 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+27-May-2016 11:40:56.859 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\geoserver.war
+27-May-2016 11:41:17.414 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2016 11:41:20.186 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'XStreamPersisterInitializer', but ApplicationContext is unset.
+27-May-2016 11:41:20.186 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+27-May-2016 11:41:20.207 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+27-May-2016 11:41:20.208 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+27-May-2016 11:41:23.392 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'GeoServerSecurityProvider', but ApplicationContext is unset.
+27-May-2016 11:41:23.392 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+27-May-2016 11:41:23.392 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+27-May-2016 11:41:23.408 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+27-May-2016 11:41:43.211 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\geoserver.war has finished in 46,352 ms
+27-May-2016 11:41:43.211 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\docs
+27-May-2016 11:41:43.243 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\docs has finished in 32 ms
+27-May-2016 11:41:43.243 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\examples
+27-May-2016 11:41:43.781 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\examples has finished in 538 ms
+27-May-2016 11:41:43.781 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\host-manager
+27-May-2016 11:41:43.828 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\host-manager has finished in 47 ms
+27-May-2016 11:41:43.828 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\in_sight
+27-May-2016 11:41:43.844 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\in_sight has finished in 16 ms
+27-May-2016 11:41:43.844 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\manager
+27-May-2016 11:41:43.897 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\manager has finished in 53 ms
+27-May-2016 11:41:43.897 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\ROOT
+27-May-2016 11:41:43.928 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\ROOT has finished in 31 ms
+27-May-2016 11:41:43.928 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\target
+27-May-2016 11:41:43.943 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\target has finished in 15 ms
+27-May-2016 11:41:43.960 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\test
+27-May-2016 11:41:43.997 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\test has finished in 37 ms
+27-May-2016 11:41:44.013 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-May-2016 11:41:44.028 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+27-May-2016 11:41:44.028 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 47254 ms
+27-May-2016 14:21:55.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+27-May-2016 14:21:55.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+27-May-2016 14:21:55.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+27-May-2016 14:21:55.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-May-2016 14:21:55.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-May-2016 14:21:55.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+27-May-2016 14:21:55.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jre1.8.0_91
+27-May-2016 14:21:55.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_91-b14
+27-May-2016 14:21:55.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-May-2016 14:21:55.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+27-May-2016 14:21:55.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+27-May-2016 14:21:55.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\conf\logging.properties
+27-May-2016 14:21:55.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-May-2016 14:21:55.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\endorsed
+27-May-2016 14:21:55.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+27-May-2016 14:21:55.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+27-May-2016 14:21:55.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\temp
+27-May-2016 14:21:55.776 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jre1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;.
+27-May-2016 14:21:55.964 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-May-2016 14:21:56.042 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-May-2016 14:21:56.047 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-May-2016 14:21:56.055 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-May-2016 14:21:56.056 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 743 ms
+27-May-2016 14:21:56.095 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+27-May-2016 14:21:56.096 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+27-May-2016 14:21:56.140 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\geoserver.war
+27-May-2016 14:22:16.558 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2016 14:22:19.459 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'XStreamPersisterInitializer', but ApplicationContext is unset.
+27-May-2016 14:22:19.463 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+27-May-2016 14:22:19.469 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+27-May-2016 14:22:19.469 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+27-May-2016 14:22:22.694 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'GeoServerSecurityProvider', but ApplicationContext is unset.
+27-May-2016 14:22:22.695 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+27-May-2016 14:22:22.697 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+27-May-2016 14:22:22.699 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+27-May-2016 14:22:41.229 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\geoserver.war has finished in 45,088 ms
+27-May-2016 14:22:41.231 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\docs
+27-May-2016 14:22:41.266 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\docs has finished in 35 ms
+27-May-2016 14:22:41.267 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\examples
+27-May-2016 14:22:41.818 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\examples has finished in 551 ms
+27-May-2016 14:22:41.818 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\host-manager
+27-May-2016 14:22:41.862 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\host-manager has finished in 44 ms
+27-May-2016 14:22:41.863 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\in_sight
+27-May-2016 14:22:41.893 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\in_sight has finished in 30 ms
+27-May-2016 14:22:41.893 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\manager
+27-May-2016 14:22:41.936 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\manager has finished in 43 ms
+27-May-2016 14:22:41.937 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\ROOT
+27-May-2016 14:22:41.967 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\ROOT has finished in 30 ms
+27-May-2016 14:22:41.968 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\target
+27-May-2016 14:22:42.000 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\target has finished in 32 ms
+27-May-2016 14:22:42.001 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\test
+27-May-2016 14:22:42.031 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\test has finished in 30 ms
+27-May-2016 14:22:42.037 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-May-2016 14:22:42.050 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+27-May-2016 14:22:42.053 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 45995 ms
+27-May-2016 15:14:46.940 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/test]
+27-May-2016 18:24:34.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+27-May-2016 18:24:34.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+27-May-2016 18:24:34.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+27-May-2016 18:24:34.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+27-May-2016 18:24:34.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+27-May-2016 18:24:34.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+27-May-2016 18:24:34.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jre7
+27-May-2016 18:24:34.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+27-May-2016 18:24:34.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-May-2016 18:24:34.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+27-May-2016 18:24:34.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+27-May-2016 18:24:34.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\conf\logging.properties
+27-May-2016 18:24:34.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-May-2016 18:24:34.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\endorsed
+27-May-2016 18:24:34.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+27-May-2016 18:24:34.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+27-May-2016 18:24:34.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\temp
+27-May-2016 18:24:34.603 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jre7\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Python27\;C:\Python27\Scripts;c:\Python27\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\PostgreSQL\9.4\bin;C:\Program Files\PostgreSQL\9.4\lib;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Java\jre7\bin;.
+27-May-2016 18:24:36.396 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-May-2016 18:24:36.686 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-May-2016 18:24:36.706 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-May-2016 18:24:36.716 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-May-2016 18:24:36.716 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 4850 ms
+27-May-2016 18:24:36.846 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+27-May-2016 18:24:36.846 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+27-May-2016 18:24:37.116 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\geoserver.war
+27-May-2016 18:25:21.506 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2016 18:25:27.062 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'XStreamPersisterInitializer', but ApplicationContext is unset.
+27-May-2016 18:25:27.064 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+27-May-2016 18:25:27.070 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+27-May-2016 18:25:27.070 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+27-May-2016 18:25:30.312 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'GeoServerSecurityProvider', but ApplicationContext is unset.
+27-May-2016 18:25:30.312 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+27-May-2016 18:25:30.313 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+27-May-2016 18:25:30.314 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+27-May-2016 18:25:40.561 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+27-May-2016 18:25:40.562 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/geoserver] startup failed due to previous errors
+27-May-2016 18:25:40.631 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Beginning GeoServer cleanup sequence
+27-May-2016 18:25:40.631 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistered JDBC driver org.hsqldb.jdbc.JDBCDriver@4454ae
+27-May-2016 18:25:40.632 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistered JDBC driver org.postgresql.Driver@14ea1d1
+27-May-2016 18:25:40.670 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory GeoserverWKTOperationFactory["European Petroleum Survey Group"]
+  COORDINATE_OPERATION_AUTHORITY_FACTORY = PropertyCoordinateOperationAuthorityFactory["European Petroleum Survey Group"]
+    CRS_FACTORY                          = ReferencingObjectFactory                                                      
+    CS_FACTORY                           = (same as CRS_FACTORY)                                                         
+    DATUM_FACTORY                        = DatumAliases                                                                  
+    MATH_TRANSFORM_FACTORY               = DefaultMathTransformFactory                                                   
+
+27-May-2016 18:25:40.673 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory LongitudeFirstFactory["European Petroleum Survey Group"]
+  FORCE_LONGITUDE_FIRST_AXIS_ORDER           = true                                                          
+  FORCE_STANDARD_AXIS_DIRECTIONS             = false                                                         
+  FORCE_STANDARD_AXIS_UNITS                  = false                                                         
+  CS_AUTHORITY_FACTORY                       = OrderedAxisAuthorityFactory["European Petroleum Survey Group"]
+    DATUM_AUTHORITY_FACTORY                  = ThreadedHsqlEpsgFactory["European Petroleum Survey Group"]    
+      EPSG_DATA_SOURCE                       = java:comp/env/jdbc/EPSG                                       
+      DATUM_AUTHORITY_FACTORY                = FactoryUsingHSQL["European Petroleum Survey Group"]           
+        FORCE_LONGITUDE_FIRST_AXIS_ORDER     = false                                                         
+        FORCE_STANDARD_AXIS_DIRECTIONS       = false                                                         
+        FORCE_STANDARD_AXIS_UNITS            = false                                                         
+        VERSION                              = 8.6                                                           
+        CRS_FACTORY                          = ReferencingObjectFactory                                      
+        CS_FACTORY                           = (same as CRS_FACTORY)                                         
+        DATUM_FACTORY                        = DatumAliases                                                  
+        MATH_TRANSFORM_FACTORY               = DefaultMathTransformFactory                                   
+      CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)                             
+      CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)                             
+      COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)                             
+    CS_AUTHORITY_FACTORY                     = (same as DATUM_AUTHORITY_FACTORY)                             
+    CRS_AUTHORITY_FACTORY                    = (same as DATUM_AUTHORITY_FACTORY)                             
+    COORDINATE_OPERATION_AUTHORITY_FACTORY   = (same as DATUM_AUTHORITY_FACTORY)                             
+    FORCE_STANDARD_AXIS_UNITS                = false                                                         
+    FORCE_STANDARD_AXIS_DIRECTIONS           = false                                                         
+    FORCE_LONGITUDE_FIRST_AXIS_ORDER         = true                                                          
+  CRS_AUTHORITY_FACTORY                      = (same as CS_AUTHORITY_FACTORY)                                
+
+27-May-2016 18:25:40.733 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory HTTP_AuthorityFactory["URL in OGC namespace"]
+  DATUM_AUTHORITY_FACTORY                = AllAuthoritiesFactory["All"]     
+  CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)
+  CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)
+  COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)
+
+27-May-2016 18:25:40.804 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory GeoserverOverridingWKTFactory["European Petroleum Survey Group"]
+  CRS_AUTHORITY_EXTRA_DIRECTORY    = null                                                       
+  DATUM_AUTHORITY_FACTORY          = PropertyAuthorityFactory["European Petroleum Survey Group"]
+    FORCE_STANDARD_AXIS_DIRECTIONS = false                                                      
+    FORCE_STANDARD_AXIS_UNITS      = false                                                      
+    CRS_FACTORY                    = ReferencingObjectFactory                                   
+    CS_FACTORY                     = (same as CRS_FACTORY)                                      
+    DATUM_FACTORY                  = DatumAliases                                               
+    MATH_TRANSFORM_FACTORY         = DefaultMathTransformFactory                                
+  CS_AUTHORITY_FACTORY             = (same as DATUM_AUTHORITY_FACTORY)                          
+  CRS_AUTHORITY_FACTORY            = (same as DATUM_AUTHORITY_FACTORY)                          
+
+27-May-2016 18:25:40.807 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory LongitudeFirstFactory["European Petroleum Survey Group"]
+  FORCE_LONGITUDE_FIRST_AXIS_ORDER           = true                                                          
+  FORCE_STANDARD_AXIS_DIRECTIONS             = false                                                         
+  FORCE_STANDARD_AXIS_UNITS                  = false                                                         
+  CS_AUTHORITY_FACTORY                       = OrderedAxisAuthorityFactory["European Petroleum Survey Group"]
+    DATUM_AUTHORITY_FACTORY                  = ThreadedHsqlEpsgFactory["European Petroleum Survey Group"]    
+      EPSG_DATA_SOURCE                       = java:comp/env/jdbc/EPSG                                       
+      DATUM_AUTHORITY_FACTORY                = FactoryUsingHSQL["European Petroleum Survey Group"]           
+        FORCE_LONGITUDE_FIRST_AXIS_ORDER     = false                                                         
+        FORCE_STANDARD_AXIS_DIRECTIONS       = false                                                         
+        FORCE_STANDARD_AXIS_UNITS            = false                                                         
+        VERSION                              = 8.6                                                           
+        CRS_FACTORY                          = ReferencingObjectFactory                                      
+        CS_FACTORY                           = (same as CRS_FACTORY)                                         
+        DATUM_FACTORY                        = DatumAliases                                                  
+        MATH_TRANSFORM_FACTORY               = DefaultMathTransformFactory                                   
+      CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)                             
+      CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)                             
+      COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)                             
+    CS_AUTHORITY_FACTORY                     = (same as DATUM_AUTHORITY_FACTORY)                             
+    CRS_AUTHORITY_FACTORY                    = (same as DATUM_AUTHORITY_FACTORY)                             
+    COORDINATE_OPERATION_AUTHORITY_FACTORY   = (same as DATUM_AUTHORITY_FACTORY)                             
+    FORCE_STANDARD_AXIS_UNITS                = false                                                         
+    FORCE_STANDARD_AXIS_DIRECTIONS           = false                                                         
+    FORCE_LONGITUDE_FIRST_AXIS_ORDER         = true                                                          
+  CRS_AUTHORITY_FACTORY                      = (same as CS_AUTHORITY_FACTORY)                                
+
+27-May-2016 18:25:40.811 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory GeoserverCustomWKTFactory["European Petroleum Survey Group"]
+  CRS_AUTHORITY_EXTRA_DIRECTORY    = null                                                       
+  DATUM_AUTHORITY_FACTORY          = PropertyAuthorityFactory["European Petroleum Survey Group"]
+    FORCE_STANDARD_AXIS_DIRECTIONS = false                                                      
+    FORCE_STANDARD_AXIS_UNITS      = false                                                      
+    CRS_FACTORY                    = ReferencingObjectFactory                                   
+    CS_FACTORY                     = (same as CRS_FACTORY)                                      
+    DATUM_FACTORY                  = DatumAliases                                               
+    MATH_TRANSFORM_FACTORY         = DefaultMathTransformFactory                                
+  CS_AUTHORITY_FACTORY             = (same as DATUM_AUTHORITY_FACTORY)                          
+  CRS_AUTHORITY_FACTORY            = (same as DATUM_AUTHORITY_FACTORY)                          
+
+27-May-2016 18:25:40.813 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory CartesianAuthorityFactory["European Petroleum Survey Group"]
+  CRS_FACTORY            = ReferencingObjectFactory   
+  CS_FACTORY             = (same as CRS_FACTORY)      
+  DATUM_FACTORY          = DatumAliases               
+  MATH_TRANSFORM_FACTORY = DefaultMathTransformFactory
+
+27-May-2016 18:25:40.814 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory AutoCRSFactory["Automatic Projections"]
+  CRS_FACTORY            = ReferencingObjectFactory   
+  CS_FACTORY             = (same as CRS_FACTORY)      
+  DATUM_FACTORY          = DatumAliases               
+  MATH_TRANSFORM_FACTORY = DefaultMathTransformFactory
+
+27-May-2016 18:25:40.815 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory WebCRSFactory["Web Map Service CRS"]
+  CRS_FACTORY            = ReferencingObjectFactory   
+  CS_FACTORY             = (same as CRS_FACTORY)      
+  DATUM_FACTORY          = DatumAliases               
+  MATH_TRANSFORM_FACTORY = DefaultMathTransformFactory
+
+27-May-2016 18:25:40.816 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory HTTP_AuthorityFactory["URL in OGC namespace"]
+  DATUM_AUTHORITY_FACTORY                = AllAuthoritiesFactory["All"]     
+  CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)
+  CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)
+  COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)
+
+27-May-2016 18:25:40.879 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory LongitudeFirstFactory["European Petroleum Survey Group"]
+  FORCE_LONGITUDE_FIRST_AXIS_ORDER           = true                                                          
+  FORCE_STANDARD_AXIS_DIRECTIONS             = false                                                         
+  FORCE_STANDARD_AXIS_UNITS                  = false                                                         
+  CS_AUTHORITY_FACTORY                       = OrderedAxisAuthorityFactory["European Petroleum Survey Group"]
+    DATUM_AUTHORITY_FACTORY                  = ThreadedHsqlEpsgFactory["European Petroleum Survey Group"]    
+      EPSG_DATA_SOURCE                       = java:comp/env/jdbc/EPSG                                       
+      DATUM_AUTHORITY_FACTORY                = FactoryUsingHSQL["European Petroleum Survey Group"]           
+        FORCE_LONGITUDE_FIRST_AXIS_ORDER     = false                                                         
+        FORCE_STANDARD_AXIS_DIRECTIONS       = false                                                         
+        FORCE_STANDARD_AXIS_UNITS            = false                                                         
+        VERSION                              = 8.6                                                           
+        CRS_FACTORY                          = ReferencingObjectFactory                                      
+        CS_FACTORY                           = (same as CRS_FACTORY)                                         
+        DATUM_FACTORY                        = DatumAliases                                                  
+        MATH_TRANSFORM_FACTORY               = DefaultMathTransformFactory                                   
+      CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)                             
+      CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)                             
+      COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)                             
+    CS_AUTHORITY_FACTORY                     = (same as DATUM_AUTHORITY_FACTORY)                             
+    CRS_AUTHORITY_FACTORY                    = (same as DATUM_AUTHORITY_FACTORY)                             
+    COORDINATE_OPERATION_AUTHORITY_FACTORY   = (same as DATUM_AUTHORITY_FACTORY)                             
+    FORCE_STANDARD_AXIS_UNITS                = false                                                         
+    FORCE_STANDARD_AXIS_DIRECTIONS           = false                                                         
+    FORCE_LONGITUDE_FIRST_AXIS_ORDER         = true                                                          
+  CRS_AUTHORITY_FACTORY                      = (same as CS_AUTHORITY_FACTORY)                                
+
+27-May-2016 18:25:40.883 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory HTTP_AuthorityFactory["URL in OGC namespace"]
+  DATUM_AUTHORITY_FACTORY                = AllAuthoritiesFactory["All"]     
+  CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)
+  CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)
+  COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)
+
+27-May-2016 18:25:40.884 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Shut down GT referencing threads 
+27-May-2016 18:25:40.885 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Shut down GT  SPI 
+27-May-2016 18:25:40.885 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Shut down coverage thread pool 
+27-May-2016 18:25:40.886 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.plugins.arcgrid.spi.AsciiGridsImageReaderSpi@1e17ce2
+27-May-2016 18:25:40.886 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.stream.input.spi.FileImageInputStreamExtImplSpi@1b72284
+27-May-2016 18:25:40.887 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.wbmp.WBMPImageReaderSpi@72f569
+27-May-2016 18:25:40.887 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.bmp.BMPImageReaderSpi@14dc2c7
+27-May-2016 18:25:40.888 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.stream.input.spi.StringImageInputStreamSpi@b1aa8f
+27-May-2016 18:25:40.888 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.jpeg2000.J2KImageWriterSpi@ec3a67
+27-May-2016 18:25:40.888 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.stream.output.spi.FileImageOutputStreamExtImplSpi@114594a
+27-May-2016 18:25:40.889 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageioimpl.plugins.tiff.TIFFImageReaderSpi@1ef9c97
+27-May-2016 18:25:40.889 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.stream.output.spi.StringImageOutputStreamSpi@1a7b5d1
+27-May-2016 18:25:40.890 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.raw.RawImageReaderSpi@1c02c6c
+27-May-2016 18:25:40.890 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.jpeg2000.J2KImageReaderSpi@1c9b3fb
+27-May-2016 18:25:40.890 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.pnm.PNMImageWriterSpi@28e690
+27-May-2016 18:25:40.891 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.tiff.TIFFImageWriterSpi@18e2c4e
+27-May-2016 18:25:40.891 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.stream.ChannelImageInputStreamSpi@2d27d6
+27-May-2016 18:25:40.892 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.gif.GIFImageWriterSpi@2b811a
+27-May-2016 18:25:40.892 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.tiff.TIFFImageReaderSpi@1a49168
+27-May-2016 18:25:40.893 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.stream.ChannelImageOutputStreamSpi@6890a5
+27-May-2016 18:25:40.893 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.wbmp.WBMPImageWriterSpi@d6fd21
+27-May-2016 18:25:40.893 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.stream.input.spi.URLImageInputStreamSpi@296147
+27-May-2016 18:25:40.894 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.plugins.arcgrid.spi.AsciiGridsImageWriterSpi@a26214
+27-May-2016 18:25:40.894 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.pnm.PNMImageReaderSpi@2ea2c4
+27-May-2016 18:25:40.895 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.bmp.BMPImageWriterSpi@84bb67
+27-May-2016 18:25:40.895 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageioimpl.plugins.tiff.TIFFImageWriterSpi@1087068
+27-May-2016 18:25:40.895 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.raw.RawImageWriterSpi@13918d8
+27-May-2016 18:25:40.896 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.stream.output.spi.URLImageOutputStreamSpi@2993d1
+27-May-2016 18:25:40.896 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMultiplyRIF
+27-May-2016 18:25:40.897 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MultiplyCRIF
+27-May-2016 18:25:40.897 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibLogRIF
+27-May-2016 18:25:40.897 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.LogCRIF
+27-May-2016 18:25:40.898 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.PNMRIF
+27-May-2016 18:25:40.898 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.IIPCRIF
+27-May-2016 18:25:40.899 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibGradientRIF
+27-May-2016 18:25:40.899 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.GradientRIF
+27-May-2016 18:25:40.899 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.PatternRIF
+27-May-2016 18:25:40.900 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.PNGRIF
+27-May-2016 18:25:40.900 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class javax.media.jai.NullCRIF
+27-May-2016 18:25:40.900 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.FileStoreRIF
+27-May-2016 18:25:40.901 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.imageioimpl.ImageWriteCRIF
+27-May-2016 18:25:40.901 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibBandCombineRIF
+27-May-2016 18:25:40.902 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.BandCombineCRIF
+27-May-2016 18:25:40.902 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibTranslateRIF
+27-May-2016 18:25:40.902 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.TranslateCRIF
+27-May-2016 18:25:40.903 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibConvolveRIF
+27-May-2016 18:25:40.903 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ConvolveRIF
+27-May-2016 18:25:40.904 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibDCTRIF
+27-May-2016 18:25:40.904 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.DCTCRIF
+27-May-2016 18:25:40.904 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.GIFRIF
+27-May-2016 18:25:40.905 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.IIPResolutionRIF
+27-May-2016 18:25:40.905 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.FormatCRIF
+27-May-2016 18:25:40.905 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibAddRIF
+27-May-2016 18:25:40.906 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AddCRIF
+27-May-2016 18:25:40.906 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMaxRIF
+27-May-2016 18:25:40.906 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MaxCRIF
+27-May-2016 18:25:40.907 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.BorderRIF
+27-May-2016 18:25:40.907 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibRescaleRIF
+27-May-2016 18:25:40.908 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.RescaleCRIF
+27-May-2016 18:25:40.908 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibBinarizeRIF
+27-May-2016 18:25:40.908 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.BinarizeCRIF
+27-May-2016 18:25:40.909 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.DivideComplexCRIF
+27-May-2016 18:25:40.909 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibDilateRIF
+27-May-2016 18:25:40.909 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.DilateRIF
+27-May-2016 18:25:40.909 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibHistogramRIF
+27-May-2016 18:25:40.910 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.HistogramRIF
+27-May-2016 18:25:40.910 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AddCollectionCRIF
+27-May-2016 18:25:40.910 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.URLRIF
+27-May-2016 18:25:40.911 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.PolarToComplexCRIF
+27-May-2016 18:25:40.911 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubtractConstRIF
+27-May-2016 18:25:40.911 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.SubtractConstCRIF
+27-May-2016 18:25:40.913 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMaxFilterRIF
+27-May-2016 18:25:40.913 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MaxFilterRIF
+27-May-2016 18:25:40.913 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.JPEGRIF
+27-May-2016 18:25:40.914 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ErrorDiffusionRIF
+27-May-2016 18:25:40.914 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.imageioimpl.ImageReadCRIF
+27-May-2016 18:25:40.914 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMeanRIF
+27-May-2016 18:25:40.914 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MeanRIF
+27-May-2016 18:25:40.915 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.EncodeRIF
+27-May-2016 18:25:40.915 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.PhaseCRIF
+27-May-2016 18:25:40.915 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ConjugateCRIF
+27-May-2016 18:25:40.921 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.OrderedDitherRIF
+27-May-2016 18:25:40.922 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibOrRIF
+27-May-2016 18:25:40.924 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.OrCRIF
+27-May-2016 18:25:40.924 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.BandMergeCRIF
+27-May-2016 18:25:40.925 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.CropCRIF
+27-May-2016 18:25:40.925 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibExtremaRIF
+27-May-2016 18:25:40.926 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ExtremaRIF
+27-May-2016 18:25:40.926 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubtractRIF
+27-May-2016 18:25:40.927 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.SubtractCRIF
+27-May-2016 18:25:40.927 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ConstantCRIF
+27-May-2016 18:25:40.928 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibIDFTRIF
+27-May-2016 18:25:40.938 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.IDFTCRIF
+27-May-2016 18:25:40.939 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibInvertRIF
+27-May-2016 18:25:40.939 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.InvertCRIF
+27-May-2016 18:25:40.940 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.PiecewiseCRIF
+27-May-2016 18:25:40.940 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibDivideByConstRIF
+27-May-2016 18:25:40.941 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.DivideByConstCRIF
+27-May-2016 18:25:40.941 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibOrConstRIF
+27-May-2016 18:25:40.941 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.OrConstCRIF
+27-May-2016 18:25:40.941 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMosaicRIF
+27-May-2016 18:25:40.942 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MosaicRIF
+27-May-2016 18:25:40.942 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibRotateRIF
+27-May-2016 18:25:40.943 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.RotateCRIF
+27-May-2016 18:25:40.944 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibXorConstRIF
+27-May-2016 18:25:40.945 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.XorConstCRIF
+27-May-2016 18:25:40.945 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibShearRIF
+27-May-2016 18:25:40.946 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ShearRIF
+27-May-2016 18:25:40.946 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MagnitudeSquaredCRIF
+27-May-2016 18:25:40.947 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibAddConstRIF
+27-May-2016 18:25:40.947 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AddConstCRIF
+27-May-2016 18:25:40.948 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibAndRIF
+27-May-2016 18:25:40.948 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AndCRIF
+27-May-2016 18:25:40.949 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.StreamRIF
+27-May-2016 18:25:40.949 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ColorConvertCRIF
+27-May-2016 18:25:40.950 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibXorRIF
+27-May-2016 18:25:40.950 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.XorCRIF
+27-May-2016 18:25:40.951 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibAbsoluteRIF
+27-May-2016 18:25:40.951 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AbsoluteCRIF
+27-May-2016 18:25:40.952 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubtractFromConstRIF
+27-May-2016 18:25:40.952 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.SubtractFromConstCRIF
+27-May-2016 18:25:40.952 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibCompositeRIF
+27-May-2016 18:25:40.953 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.CompositeCRIF
+27-May-2016 18:25:40.953 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.BMPRIF
+27-May-2016 18:25:40.958 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.TIFFRIF
+27-May-2016 18:25:40.958 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibBoxFilterRIF
+27-May-2016 18:25:40.959 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.BoxFilterRIF
+27-May-2016 18:25:40.959 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibBandSelectRIF
+27-May-2016 18:25:40.960 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.BandSelectCRIF
+27-May-2016 18:25:40.960 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibDFTRIF
+27-May-2016 18:25:40.960 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.DFTCRIF
+27-May-2016 18:25:40.961 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibErodeRIF
+27-May-2016 18:25:40.961 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ErodeRIF
+27-May-2016 18:25:40.962 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMultiplyConstRIF
+27-May-2016 18:25:40.962 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MultiplyConstCRIF
+27-May-2016 18:25:40.970 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibUnsharpMaskRIF
+27-May-2016 18:25:40.971 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.UnsharpMaskRIF
+27-May-2016 18:25:40.971 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMinFilterRIF
+27-May-2016 18:25:40.972 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MinFilterRIF
+27-May-2016 18:25:40.972 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibExpRIF
+27-May-2016 18:25:40.972 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ExpCRIF
+27-May-2016 18:25:40.973 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ColorQuantizerRIF
+27-May-2016 18:25:40.973 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.OverlayCRIF
+27-May-2016 18:25:40.973 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibAndConstRIF
+27-May-2016 18:25:40.974 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AndConstCRIF
+27-May-2016 18:25:40.979 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.FileLoadRIF
+27-May-2016 18:25:40.979 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubsampleAverageRIF
+27-May-2016 18:25:40.980 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.SubsampleAverageCRIF
+27-May-2016 18:25:40.980 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibThresholdRIF
+27-May-2016 18:25:40.981 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ThresholdCRIF
+27-May-2016 18:25:40.981 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MatchCDFCRIF
+27-May-2016 18:25:40.982 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MultiplyComplexCRIF
+27-May-2016 18:25:40.982 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibScaleRIF
+27-May-2016 18:25:40.982 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ScaleCRIF
+27-May-2016 18:25:40.983 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibDivideRIF
+27-May-2016 18:25:40.983 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.DivideCRIF
+27-May-2016 18:25:40.990 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibClampRIF
+27-May-2016 18:25:40.991 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ClampCRIF
+27-May-2016 18:25:40.991 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibAffineRIF
+27-May-2016 18:25:40.991 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AffineCRIF
+27-May-2016 18:25:40.992 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AWTImageRIF
+27-May-2016 18:25:40.992 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MagnitudeCRIF
+27-May-2016 18:25:40.993 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibLookupRIF
+27-May-2016 18:25:40.993 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.LookupCRIF
+27-May-2016 18:25:40.994 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubsampleBinaryToGrayRIF
+27-May-2016 18:25:40.994 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.SubsampleBinaryToGrayCRIF
+27-May-2016 18:25:40.995 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibNotRIF
+27-May-2016 18:25:40.999 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.NotCRIF
+27-May-2016 18:25:40.999 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibIDCTRIF
+27-May-2016 18:25:41.000 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.IDCTCRIF
+27-May-2016 18:25:41.001 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibDivideIntoConstRIF
+27-May-2016 18:25:41.001 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.DivideIntoConstCRIF
+27-May-2016 18:25:41.001 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ImageFunctionRIF
+27-May-2016 18:25:41.002 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMedianFilterRIF
+27-May-2016 18:25:41.002 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MedianFilterRIF
+27-May-2016 18:25:41.003 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibFilteredSubsampleRIF
+27-May-2016 18:25:41.003 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.FilteredSubsampleRIF
+27-May-2016 18:25:41.014 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMinRIF
+27-May-2016 18:25:41.015 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MinCRIF
+27-May-2016 18:25:41.015 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibWarpRIF
+27-May-2016 18:25:41.016 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.WarpRIF
+27-May-2016 18:25:41.016 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.PeriodicShiftCRIF
+27-May-2016 18:25:41.017 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.FPXRIF
+27-May-2016 18:25:41.017 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibTransposeRIF
+27-May-2016 18:25:41.017 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.TransposeCRIF
+27-May-2016 18:25:41.018 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.imageioimpl.ImageReadCIF
+27-May-2016 18:25:41.019 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AddConstToCollectionCIF
+27-May-2016 18:25:41.019 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.imageioimpl.ImageWriteCIF
+27-May-2016 18:25:41.037 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.tilecodec.RawTileDecoderFactory
+27-May-2016 18:25:41.039 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.tilecodec.JPEGTileDecoderFactory
+27-May-2016 18:25:41.040 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.tilecodec.GZIPTileDecoderFactory
+27-May-2016 18:25:41.041 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.tilecodec.RawTileEncoderFactory
+27-May-2016 18:25:41.042 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.tilecodec.JPEGTileEncoderFactory
+27-May-2016 18:25:41.043 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.tilecodec.GZIPTileEncoderFactory
+27-May-2016 18:25:41.044 INFO [localhost-startStop-1] org.geoserver.GeoserverInitStartupListener.contextDestroyed Cleaned up javabean caches
+27-May-2016 18:25:41.738 WARNING [localhost-startStop-1] java.util.prefs.WindowsPreferences.<init> Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+27-May-2016 18:25:41.777 SEVERE [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@503472]) and a value of type [org.geotools.referencing.operation.projection.ObliqueStereographic.Provider] (value [PROJECTION["Oblique_Stereographic"]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-May-2016 18:25:42.224 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\geoserver.war has finished in 65,107 ms
+27-May-2016 18:25:42.228 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\docs
+27-May-2016 18:25:42.721 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\docs has finished in 494 ms
+27-May-2016 18:25:42.721 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\examples
+27-May-2016 18:25:45.203 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\examples has finished in 2,482 ms
+27-May-2016 18:25:45.204 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\host-manager
+27-May-2016 18:25:45.335 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\host-manager has finished in 131 ms
+27-May-2016 18:25:45.336 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\in_sight
+27-May-2016 18:25:45.359 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\in_sight has finished in 23 ms
+27-May-2016 18:25:45.359 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\manager
+27-May-2016 18:25:45.592 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\manager has finished in 233 ms
+27-May-2016 18:25:45.592 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\ROOT
+27-May-2016 18:25:45.652 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\ROOT has finished in 60 ms
+27-May-2016 18:25:45.653 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\target
+27-May-2016 18:25:45.677 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\target has finished in 24 ms
+27-May-2016 18:25:45.686 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-May-2016 18:25:45.697 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+27-May-2016 18:25:45.700 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 68977 ms
+27-May-2016 18:37:35.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+27-May-2016 18:37:35.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+27-May-2016 18:37:35.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+27-May-2016 18:37:35.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+27-May-2016 18:37:35.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+27-May-2016 18:37:35.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+27-May-2016 18:37:35.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jre7
+27-May-2016 18:37:35.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+27-May-2016 18:37:35.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-May-2016 18:37:35.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+27-May-2016 18:37:35.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+27-May-2016 18:37:35.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\conf\logging.properties
+27-May-2016 18:37:35.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-May-2016 18:37:35.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\endorsed
+27-May-2016 18:37:35.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+27-May-2016 18:37:35.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+27-May-2016 18:37:35.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\temp
+27-May-2016 18:37:35.789 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jre7\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Python27\;C:\Python27\Scripts;c:\Python27\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\PostgreSQL\9.4\bin;C:\Program Files\PostgreSQL\9.4\lib;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Java\jre7\bin;.
+27-May-2016 18:37:36.033 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-May-2016 18:37:36.075 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-May-2016 18:37:36.080 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-May-2016 18:37:36.084 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-May-2016 18:37:36.085 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 741 ms
+27-May-2016 18:37:36.117 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+27-May-2016 18:37:36.117 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+27-May-2016 18:37:36.165 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\geoserver.war
+27-May-2016 18:37:54.335 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2016 18:37:56.604 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'XStreamPersisterInitializer', but ApplicationContext is unset.
+27-May-2016 18:37:56.605 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+27-May-2016 18:37:56.611 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+27-May-2016 18:37:56.611 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+27-May-2016 18:37:59.281 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'GeoServerSecurityProvider', but ApplicationContext is unset.
+27-May-2016 18:37:59.282 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+27-May-2016 18:37:59.283 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+27-May-2016 18:37:59.283 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+27-May-2016 18:38:21.162 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\geoserver.war has finished in 44,997 ms
+27-May-2016 18:38:21.163 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\docs
+27-May-2016 18:38:21.202 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\docs has finished in 39 ms
+27-May-2016 18:38:21.203 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\examples
+27-May-2016 18:38:21.918 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\examples has finished in 715 ms
+27-May-2016 18:38:21.918 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\host-manager
+27-May-2016 18:38:21.969 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\host-manager has finished in 51 ms
+27-May-2016 18:38:21.969 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\in_sight
+27-May-2016 18:38:21.992 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\in_sight has finished in 22 ms
+27-May-2016 18:38:21.992 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\manager
+27-May-2016 18:38:22.036 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\manager has finished in 44 ms
+27-May-2016 18:38:22.037 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\ROOT
+27-May-2016 18:38:22.072 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\ROOT has finished in 35 ms
+27-May-2016 18:38:22.072 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\target
+27-May-2016 18:38:22.097 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\target has finished in 25 ms
+27-May-2016 18:38:22.106 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-May-2016 18:38:22.116 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+27-May-2016 18:38:22.120 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 46032 ms
+27-May-2016 21:11:34.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+27-May-2016 21:11:34.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+27-May-2016 21:11:34.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+27-May-2016 21:11:34.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+27-May-2016 21:11:34.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+27-May-2016 21:11:34.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+27-May-2016 21:11:34.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jre7
+27-May-2016 21:11:34.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+27-May-2016 21:11:34.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-May-2016 21:11:34.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+27-May-2016 21:11:34.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+27-May-2016 21:11:34.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\conf\logging.properties
+27-May-2016 21:11:34.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-May-2016 21:11:34.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\endorsed
+27-May-2016 21:11:34.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+27-May-2016 21:11:34.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+27-May-2016 21:11:34.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\temp
+27-May-2016 21:11:34.761 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jre7\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Python27\;C:\Python27\Scripts;c:\Python27\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\PostgreSQL\9.4\bin;C:\Program Files\PostgreSQL\9.4\lib;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Java\jre7\bin;.
+27-May-2016 21:11:37.585 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-May-2016 21:11:37.912 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-May-2016 21:11:37.944 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-May-2016 21:11:37.944 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-May-2016 21:11:37.944 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 9186 ms
+27-May-2016 21:11:38.162 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+27-May-2016 21:11:38.162 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+27-May-2016 21:11:38.521 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\geoserver.war

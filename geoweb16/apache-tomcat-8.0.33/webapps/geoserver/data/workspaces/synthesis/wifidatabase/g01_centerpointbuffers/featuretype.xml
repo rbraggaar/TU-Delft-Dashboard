@@ -1,0 +1,65 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-1a4fd24f:15512180b72:-7ca9</id>
+  <name>g01_centerpointbuffers</name>
+  <nativeName>g01_centerpointbuffers</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--7f8dbde4:154e3029880:-7fff</id>
+  </namespace>
+  <title>g01_centerpointbuffers</title>
+  <keywords>
+    <string>features</string>
+    <string>g01_centerpointbuffers</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;Amersfoort / RD New&quot;, &#xd;
+  GEOGCS[&quot;Amersfoort&quot;, &#xd;
+    DATUM[&quot;Amersfoort&quot;, &#xd;
+      SPHEROID[&quot;Bessel 1841&quot;, 6377397.155, 299.1528128, AUTHORITY[&quot;EPSG&quot;,&quot;7004&quot;]], &#xd;
+      TOWGS84[565.2369, 50.0087, 465.658, -0.40685733032239757, -0.3507326765425626, 1.8703473836067959, 4.0812], &#xd;
+      AUTHORITY[&quot;EPSG&quot;,&quot;6289&quot;]], &#xd;
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], &#xd;
+    UNIT[&quot;degree&quot;, 0.017453292519943295], &#xd;
+    AXIS[&quot;Geodetic longitude&quot;, EAST], &#xd;
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], &#xd;
+    AUTHORITY[&quot;EPSG&quot;,&quot;4289&quot;]], &#xd;
+  PROJECTION[&quot;Oblique_Stereographic&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9809&quot;]], &#xd;
+  PARAMETER[&quot;central_meridian&quot;, 5.387638888888891], &#xd;
+  PARAMETER[&quot;latitude_of_origin&quot;, 52.15616055555556], &#xd;
+  PARAMETER[&quot;scale_factor&quot;, 0.9999079], &#xd;
+  PARAMETER[&quot;false_easting&quot;, 155000.0], &#xd;
+  PARAMETER[&quot;false_northing&quot;, 463000.0], &#xd;
+  UNIT[&quot;m&quot;, 1.0], &#xd;
+  AXIS[&quot;Easting&quot;, EAST], &#xd;
+  AXIS[&quot;Northing&quot;, NORTH], &#xd;
+  AUTHORITY[&quot;EPSG&quot;,&quot;28992&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>4.3683061884720376</minx>
+    <maxx>4.379463336159708</maxx>
+    <miny>51.98857369453704</miny>
+    <maxy>52.00902222346547</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>4.3683061884720376</minx>
+    <maxx>4.379463336159708</maxx>
+    <miny>51.98857369453704</miny>
+    <maxy>52.00902222346547</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, &#xd;
+  DATUM[&quot;WGS84&quot;, &#xd;
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], &#xd;
+  PRIMEM[&quot;Greenwich&quot;, 0.0], &#xd;
+  UNIT[&quot;degree&quot;, 0.017453292519943295], &#xd;
+  AXIS[&quot;Geodetic longitude&quot;, EAST], &#xd;
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--7f8dbde4:154e3029880:-7ffe</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

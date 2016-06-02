@@ -1,0 +1,519 @@
+30-May-2016 09:36:40.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+30-May-2016 09:36:40.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+30-May-2016 09:36:40.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+30-May-2016 09:36:40.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+30-May-2016 09:36:40.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+30-May-2016 09:36:40.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+30-May-2016 09:36:40.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jre7
+30-May-2016 09:36:40.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+30-May-2016 09:36:40.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-May-2016 09:36:40.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+30-May-2016 09:36:40.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+30-May-2016 09:36:40.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\conf\logging.properties
+30-May-2016 09:36:40.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-May-2016 09:36:40.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\endorsed
+30-May-2016 09:36:40.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+30-May-2016 09:36:40.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+30-May-2016 09:36:40.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\temp
+30-May-2016 09:36:40.566 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jre7\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Python27\;C:\Python27\Scripts;c:\Python27\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\PostgreSQL\9.4\bin;C:\Program Files\PostgreSQL\9.4\lib;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Java\jre7\bin;.
+30-May-2016 09:36:42.048 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-May-2016 09:36:42.329 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-May-2016 09:36:42.344 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+30-May-2016 09:36:42.360 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-May-2016 09:36:42.360 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3816 ms
+30-May-2016 09:36:42.687 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-May-2016 09:36:42.703 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+30-May-2016 09:36:43.623 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive C:\Users\Bart\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\geoserver.war
+30-May-2016 10:11:21.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+30-May-2016 10:11:21.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+30-May-2016 10:11:21.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+30-May-2016 10:11:21.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-May-2016 10:11:21.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-May-2016 10:11:21.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+30-May-2016 10:11:21.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jre1.8.0_91
+30-May-2016 10:11:21.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_91-b14
+30-May-2016 10:11:21.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-May-2016 10:11:21.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+30-May-2016 10:11:21.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+30-May-2016 10:11:21.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\conf\logging.properties
+30-May-2016 10:11:21.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-May-2016 10:11:21.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\endorsed
+30-May-2016 10:11:21.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+30-May-2016 10:11:21.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+30-May-2016 10:11:21.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\temp
+30-May-2016 10:11:21.456 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jre1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;.
+30-May-2016 10:11:21.655 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-May-2016 10:11:21.726 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-May-2016 10:11:21.726 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+30-May-2016 10:11:21.744 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-May-2016 10:11:21.745 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 731 ms
+30-May-2016 10:11:21.782 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-May-2016 10:11:21.783 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+30-May-2016 10:11:21.827 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\geoserver.war
+30-May-2016 10:11:41.142 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-May-2016 10:11:43.902 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'XStreamPersisterInitializer', but ApplicationContext is unset.
+30-May-2016 10:11:43.905 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+30-May-2016 10:11:43.911 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+30-May-2016 10:11:43.912 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+30-May-2016 10:11:47.097 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'GeoServerSecurityProvider', but ApplicationContext is unset.
+30-May-2016 10:11:47.097 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+30-May-2016 10:11:47.097 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+30-May-2016 10:11:47.097 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+30-May-2016 10:12:05.376 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\geoserver.war has finished in 43,549 ms
+30-May-2016 10:12:05.378 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\docs
+30-May-2016 10:12:05.414 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\docs has finished in 36 ms
+30-May-2016 10:12:05.415 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\examples
+30-May-2016 10:12:05.892 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\examples has finished in 477 ms
+30-May-2016 10:12:05.893 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\host-manager
+30-May-2016 10:12:05.936 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\host-manager has finished in 42 ms
+30-May-2016 10:12:05.936 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\in_sight
+30-May-2016 10:12:05.956 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\in_sight has finished in 20 ms
+30-May-2016 10:12:05.956 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\manager
+30-May-2016 10:12:06.020 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\manager has finished in 64 ms
+30-May-2016 10:12:06.021 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\ROOT
+30-May-2016 10:12:06.036 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\ROOT has finished in 16 ms
+30-May-2016 10:12:06.036 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\target
+30-May-2016 10:12:06.076 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\target has finished in 40 ms
+30-May-2016 10:12:06.076 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-May-2016 10:12:06.098 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+30-May-2016 10:12:06.101 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 44355 ms
+30-May-2016 11:52:14.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+30-May-2016 11:52:14.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+30-May-2016 11:52:14.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+30-May-2016 11:52:14.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-May-2016 11:52:14.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-May-2016 11:52:14.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+30-May-2016 11:52:14.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jre1.8.0_91
+30-May-2016 11:52:14.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_91-b14
+30-May-2016 11:52:14.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-May-2016 11:52:14.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+30-May-2016 11:52:14.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+30-May-2016 11:52:14.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\conf\logging.properties
+30-May-2016 11:52:14.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-May-2016 11:52:14.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\endorsed
+30-May-2016 11:52:14.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+30-May-2016 11:52:14.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+30-May-2016 11:52:14.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\temp
+30-May-2016 11:52:14.016 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jre1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;.
+30-May-2016 11:52:14.392 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-May-2016 11:52:14.517 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-May-2016 11:52:14.526 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+30-May-2016 11:52:14.539 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-May-2016 11:52:14.543 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1428 ms
+30-May-2016 11:52:14.628 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-May-2016 11:52:14.629 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+30-May-2016 11:52:14.740 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\geoserver.war
+30-May-2016 11:52:49.764 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-May-2016 11:52:55.361 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'XStreamPersisterInitializer', but ApplicationContext is unset.
+30-May-2016 11:52:55.366 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+30-May-2016 11:52:55.380 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+30-May-2016 11:52:55.382 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+30-May-2016 11:53:01.767 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'GeoServerSecurityProvider', but ApplicationContext is unset.
+30-May-2016 11:53:01.769 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+30-May-2016 11:53:01.771 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+30-May-2016 11:53:01.775 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+30-May-2016 11:53:37.765 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\geoserver.war has finished in 83,025 ms
+30-May-2016 11:53:37.768 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\docs
+30-May-2016 11:53:37.833 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\docs has finished in 65 ms
+30-May-2016 11:53:37.835 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\examples
+30-May-2016 11:53:38.958 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\examples has finished in 1,124 ms
+30-May-2016 11:53:38.960 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\host-manager
+30-May-2016 11:53:39.046 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\host-manager has finished in 85 ms
+30-May-2016 11:53:39.047 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\in_sight
+30-May-2016 11:53:39.087 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\in_sight has finished in 39 ms
+30-May-2016 11:53:39.088 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\manager
+30-May-2016 11:53:39.169 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\manager has finished in 81 ms
+30-May-2016 11:53:39.171 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\ROOT
+30-May-2016 11:53:39.216 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\ROOT has finished in 45 ms
+30-May-2016 11:53:39.217 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\target
+30-May-2016 11:53:39.271 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Rob\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\target has finished in 53 ms
+30-May-2016 11:53:39.315 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-May-2016 11:53:39.339 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+30-May-2016 11:53:39.344 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 84800 ms
+30-May-2016 14:58:19.156 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:19.721 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:21.308 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:21.842 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:22.383 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:22.923 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:23.460 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:24.007 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:24.556 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:25.126 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:25.684 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:26.260 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:26.800 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:27.324 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:27.856 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:28.409 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:28.970 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:29.496 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:30.318 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:31.022 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:31.556 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:32.100 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:32.643 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:33.211 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:33.773 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:34.342 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:34.908 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:35.836 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+30-May-2016 14:58:40.319 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:41.016 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:42.366 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:42.943 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:44.527 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:45.086 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:45.639 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:46.176 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:46.725 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:47.315 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:48.893 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:49.462 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:50.321 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:51.083 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:51.662 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:52.198 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:52.755 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:53.306 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:53.846 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:54.391 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:54.938 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:56.514 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:57.863 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:58.404 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:58.960 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:58:59.544 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "tomcat"
+30-May-2016 14:59:03.519 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:04.089 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:04.663 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:05.244 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:05.802 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:06.352 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:06.906 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:07.464 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:08.040 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:08.599 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:09.154 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:09.708 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:10.569 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:11.327 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:11.866 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:12.410 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:12.953 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:13.516 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:14.060 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:14.619 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:15.169 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:15.708 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:16.285 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:16.854 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:17.423 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:17.964 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:18.513 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:19.083 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:19.648 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 14:59:24.589 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:25.161 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:25.739 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:26.294 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:26.841 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:27.406 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:27.965 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:28.544 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:29.094 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:29.672 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:30.751 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:31.297 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:31.831 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:33.424 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:33.972 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:34.521 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:35.087 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:35.662 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:36.228 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:36.789 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:37.365 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:37.910 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:38.465 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:39.043 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:39.589 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:40.755 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:41.311 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "both"
+30-May-2016 14:59:44.617 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:45.167 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:46.516 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:47.072 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:47.668 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:48.223 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:48.782 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:49.352 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:50.318 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:51.017 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:52.620 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:53.166 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:53.745 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:54.312 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:54.861 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:55.403 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:55.962 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:56.514 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:57.047 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:57.624 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:58.191 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:58.751 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:59.291 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 14:59:59.840 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 15:00:00.777 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 15:00:01.334 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 15:00:01.879 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 15:00:02.429 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "a%09in"
+30-May-2016 15:00:06.646 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:07.200 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:07.772 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:08.324 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:08.881 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:09.475 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:10.333 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:11.047 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:11.610 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:12.163 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:12.730 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:13.318 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:13.893 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:14.486 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:15.045 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:15.836 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:16.447 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:17.027 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:17.606 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:18.193 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:18.754 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:19.331 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:20.336 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:21.028 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:21.588 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:22.153 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:22.721 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:23.317 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:23.899 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "root"
+30-May-2016 15:00:27.342 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:27.924 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:28.516 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:29.111 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:29.678 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:30.828 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:31.442 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:32.030 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:32.614 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:33.186 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:33.750 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:34.306 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:34.852 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:36.240 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:36.816 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:37.379 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:37.954 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:38.538 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:39.141 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:39.709 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:40.591 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:41.387 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:41.944 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:42.519 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:43.100 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:43.658 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:45.270 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:45.822 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "administrator"
+30-May-2016 15:00:49.295 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:00:49.866 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:00:51.062 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:00:51.648 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:00:52.234 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:00:52.823 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:00:53.407 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:00:53.962 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:00:54.510 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:00:55.067 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:00:55.694 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:00:56.271 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:00:56.844 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:00:57.421 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:00:57.986 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:00:58.555 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:00:59.110 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:00:59.677 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:01:00.770 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:01:01.358 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:01:01.924 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:01:02.483 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:01:03.077 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:01:03.673 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:01:04.265 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:01:05.691 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:01:06.292 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:01:06.886 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:01:07.489 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "inentadmin"
+30-May-2016 15:01:11.341 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:11.907 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:12.466 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:13.023 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:13.588 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:14.160 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:15.780 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:16.359 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:16.958 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:18.556 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:19.115 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:19.696 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:20.778 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:21.346 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:21.908 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:22.485 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:24.082 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:24.659 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:25.226 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:25.772 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:26.345 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:26.915 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:27.494 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:28.055 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:28.622 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:29.183 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "pisces"
+30-May-2016 15:01:33.126 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:33.717 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:34.285 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:34.838 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:35.389 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:35.983 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:36.535 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:37.109 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:37.697 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:38.265 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:38.827 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:39.403 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:40.338 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:41.059 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:41.645 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:42.209 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:42.785 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:43.352 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:43.938 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:44.556 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:45.170 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:45.771 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:46.319 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:46.877 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:47.456 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:49.128 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:49.765 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:50.781 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "crux"
+30-May-2016 15:01:54.358 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:01:54.944 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:01:55.578 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:01:56.131 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:01:56.702 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:01:57.323 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:01:57.879 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:01:58.431 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:01:58.999 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:01:59.564 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:02:00.780 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:02:01.341 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:02:01.911 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:02:02.495 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:02:03.099 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:02:03.697 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:02:04.263 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:02:05.732 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:02:06.297 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:02:06.850 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:02:07.450 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:02:08.058 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:02:08.655 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:02:09.254 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:02:09.865 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:02:11.062 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:02:11.626 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:02:12.226 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:02:12.806 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "chongchujianghu"
+30-May-2016 15:02:16.975 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:17.529 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:18.111 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:18.712 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:19.305 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:20.335 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:21.045 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:21.605 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:22.181 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:22.787 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:25.317 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:25.933 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:26.494 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:27.061 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:27.624 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:28.230 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:28.847 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:29.461 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:30.358 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:31.098 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:32.737 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:34.318 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:34.914 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:35.499 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:36.069 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 15:02:36.611 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "user"
+30-May-2016 16:25:59.943 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "manager"
+30-May-2016 19:35:14.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+30-May-2016 19:35:14.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+30-May-2016 19:35:14.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+30-May-2016 19:35:14.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-May-2016 19:35:14.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-May-2016 19:35:14.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-May-2016 19:35:14.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_72
+30-May-2016 19:35:14.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_72-b15
+30-May-2016 19:35:14.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-May-2016 19:35:14.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+30-May-2016 19:35:14.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+30-May-2016 19:35:14.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\conf\logging.properties
+30-May-2016 19:35:14.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-May-2016 19:35:14.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\endorsed
+30-May-2016 19:35:14.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+30-May-2016 19:35:14.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33
+30-May-2016 19:35:14.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\temp
+30-May-2016 19:35:14.337 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_72\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\CodeBlocks\MinGW\bin;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\PostgreSQL\9.5\bin;C:\Program Files (x86)\FME\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Python27\;C:\Python27\Scripts\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.
+30-May-2016 19:35:14.680 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-May-2016 19:35:14.868 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-May-2016 19:35:14.868 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+30-May-2016 19:35:14.884 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-May-2016 19:35:14.884 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1410 ms
+30-May-2016 19:35:14.946 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-May-2016 19:35:14.946 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+30-May-2016 19:35:15.024 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\geoserver.war
+30-May-2016 19:35:50.218 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-May-2016 19:35:54.896 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'XStreamPersisterInitializer', but ApplicationContext is unset.
+30-May-2016 19:35:54.900 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+30-May-2016 19:35:54.912 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+30-May-2016 19:35:54.912 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+30-May-2016 19:36:00.940 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'GeoServerSecurityProvider', but ApplicationContext is unset.
+30-May-2016 19:36:00.944 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+30-May-2016 19:36:00.944 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+30-May-2016 19:36:00.944 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+30-May-2016 19:36:34.610 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\geoserver.war has finished in 79,586 ms
+30-May-2016 19:36:34.610 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\docs
+30-May-2016 19:36:34.670 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\docs has finished in 60 ms
+30-May-2016 19:36:34.674 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\examples
+30-May-2016 19:36:35.628 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\examples has finished in 954 ms
+30-May-2016 19:36:35.628 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\host-manager
+30-May-2016 19:36:35.712 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\host-manager has finished in 84 ms
+30-May-2016 19:36:35.712 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\in_sight
+30-May-2016 19:36:35.764 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\in_sight has finished in 52 ms
+30-May-2016 19:36:35.764 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\manager
+30-May-2016 19:36:35.844 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\manager has finished in 80 ms
+30-May-2016 19:36:35.848 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\ROOT
+30-May-2016 19:36:35.896 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\ROOT has finished in 48 ms
+30-May-2016 19:36:35.896 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\target
+30-May-2016 19:36:35.944 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Birgit Ligtvoet\Dropbox\Synthesis Project\16. Geoweb\dashboard\dashboard_in_sight\geoweb16\apache-tomcat-8.0.33\webapps\target has finished in 48 ms
+30-May-2016 19:36:35.952 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-May-2016 19:36:35.972 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+30-May-2016 19:36:35.980 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 81093 ms

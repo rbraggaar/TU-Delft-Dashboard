@@ -1,0 +1,53 @@
+01-May-2016 19:57:18.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+01-May-2016 19:57:18.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+01-May-2016 19:57:18.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+01-May-2016 19:57:18.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-May-2016 19:57:18.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-May-2016 19:57:18.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+01-May-2016 19:57:18.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jre1.8.0_77
+01-May-2016 19:57:18.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_77-b03
+01-May-2016 19:57:18.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-May-2016 19:57:18.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\geoweb16\apache-tomcat-8.0.33
+01-May-2016 19:57:18.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\geoweb16\apache-tomcat-8.0.33
+01-May-2016 19:57:18.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\geoweb16\apache-tomcat-8.0.33\conf\logging.properties
+01-May-2016 19:57:18.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-May-2016 19:57:18.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\geoweb16\apache-tomcat-8.0.33\endorsed
+01-May-2016 19:57:18.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\geoweb16\apache-tomcat-8.0.33
+01-May-2016 19:57:18.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\geoweb16\apache-tomcat-8.0.33
+01-May-2016 19:57:18.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\geoweb16\apache-tomcat-8.0.33\temp
+01-May-2016 19:57:18.576 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jre1.8.0_77\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Python\Scripts;C:\Program Files\Python;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files\PostgreSQL\9.4\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\FME\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Python;C:\Program Files\Python\Scripts;C:\Programs\PostgreSQL\9.4\bin;.
+01-May-2016 19:57:18.710 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-May-2016 19:57:18.790 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-May-2016 19:57:18.792 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+01-May-2016 19:57:18.794 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-May-2016 19:57:18.794 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 511 ms
+01-May-2016 19:57:18.817 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+01-May-2016 19:57:18.817 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+01-May-2016 19:57:18.838 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive C:\geoweb16\apache-tomcat-8.0.33\webapps\geoserver.war
+01-May-2016 19:57:29.549 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-May-2016 19:57:30.880 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'XStreamPersisterInitializer', but ApplicationContext is unset.
+01-May-2016 19:57:30.881 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+01-May-2016 19:57:30.884 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+01-May-2016 19:57:30.885 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+01-May-2016 19:57:32.529 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'GeoServerSecurityProvider', but ApplicationContext is unset.
+01-May-2016 19:57:32.530 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+01-May-2016 19:57:32.531 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+01-May-2016 19:57:32.531 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+01-May-2016 19:57:42.827 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive C:\geoweb16\apache-tomcat-8.0.33\webapps\geoserver.war has finished in 23,989 ms
+01-May-2016 19:57:42.828 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\geoweb16\apache-tomcat-8.0.33\webapps\docs
+01-May-2016 19:57:42.852 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\geoweb16\apache-tomcat-8.0.33\webapps\docs has finished in 24 ms
+01-May-2016 19:57:42.853 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\geoweb16\apache-tomcat-8.0.33\webapps\examples
+01-May-2016 19:57:43.150 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\geoweb16\apache-tomcat-8.0.33\webapps\examples has finished in 297 ms
+01-May-2016 19:57:43.151 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\geoweb16\apache-tomcat-8.0.33\webapps\geoclient
+01-May-2016 19:57:43.166 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\geoweb16\apache-tomcat-8.0.33\webapps\geoclient has finished in 15 ms
+01-May-2016 19:57:43.166 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\geoweb16\apache-tomcat-8.0.33\webapps\host-manager
+01-May-2016 19:57:43.187 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\geoweb16\apache-tomcat-8.0.33\webapps\host-manager has finished in 21 ms
+01-May-2016 19:57:43.187 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\geoweb16\apache-tomcat-8.0.33\webapps\manager
+01-May-2016 19:57:43.206 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\geoweb16\apache-tomcat-8.0.33\webapps\manager has finished in 19 ms
+01-May-2016 19:57:43.206 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\geoweb16\apache-tomcat-8.0.33\webapps\ROOT
+01-May-2016 19:57:43.220 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\geoweb16\apache-tomcat-8.0.33\webapps\ROOT has finished in 14 ms
+01-May-2016 19:57:43.221 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\geoweb16\apache-tomcat-8.0.33\webapps\target
+01-May-2016 19:57:43.233 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\geoweb16\apache-tomcat-8.0.33\webapps\target has finished in 12 ms
+01-May-2016 19:57:43.237 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-May-2016 19:57:43.245 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+01-May-2016 19:57:43.246 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 24451 ms
