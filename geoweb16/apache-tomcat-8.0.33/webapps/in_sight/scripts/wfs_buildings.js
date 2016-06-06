@@ -1,214 +1,179 @@
 // WFS SOURCE
 var url = 'http://localhost:8080/geoserver/synthesis/ows?';
 
-var geomType = 'g01_newcampusgeom';
-function editGeomType(type){        //g01_newcampusgeom or g01_centerpointbuffers
-    geomType=type;
-    sl1();
-}
-// LAYERS ADDED TO THE MAP
-var mapLayers;
 
-// SL SPECIFIC INFORMATION
+ // LINK GEOMTYPE BUTTONS
+var geomType = 'g01_newcampusgeom';
+function editGeomType(type){
+    geomType = type;
+	if (geomType == 'g01_newcampusgeom'){
+	    	document.getElementsByClassName("gt")[0].style.border = "4px solid #ff6133";
+	    	document.getElementsByClassName("gt")[1].style.border = "1px solid grey";
+	}
+	else {
+	    document.getElementsByClassName("gt")[1].style.border = "4px solid #ff6133";
+	    document.getElementsByClassName("gt")[0].style.border = "1px solid grey";
+	}
+	sl1(timeRequest);
+}
+
+// LOAD MAP LAYER
+var mapLayers;
+var counter = 0;
+
+// ATTRIBUTES
+var selectedDate = '2016-04-01';
 var campusData;
 var buildingData;
 var floorData;
 
-// STORE OBJECT INFORMATION
+// GEOMETRY
 var buildings_json;
+var bars_json;
 var colorvalue;
 
-// CAMPUS (SL0) ////////////////////////////////////////////////////////////////////////////////////////////////////////
-var sl0 = function () {
-    clearr();
-	document.getElementById("geomtype").style.visibility = "hidden";
-
-    // STATISTICAL DATA
+// LOAD GEOMETRY ////////////////////////////////////////////////////////////////////////////////////////////////////////
+var buildings_json = function (){
+    // REQUEST REALISTIC GEOMETRY
     var params0 = 'service=WFS&version=1.0.0&request=GetFeature&outputFormat=application/json&srsName=EPSG:4326&';
-        params0 += 'typeName=synthesis:g01_sl0_oeh&';
-        params0 += 'propertyName=datum,l_hour,occupation,exploitation&';
-        //params0 += 'cql_filter=datum\=\'2016-04-01\'';
-        params0 += 'cql_filter=datum\=\''+selectedDate+'\'';
-        console.log(params0)
+        params0 += 'typeName=synthesis:g01_newcampusgeom&';
+        params0 += 'propertyName=geom,buildingid,height&';
 
 	// LOAD DATA
-	var validJson0;
-	var chartData0 = GetFeatureWFS( url, params0, function(validJson0) {
-        campusData = validJson0;
+        var validJson0;
+        var chartData0 = GetFeatureWFS(url, params0, function(validJson0) {
+					buildings_json = validJson0;
+					});
+	console.log("buildings_json")
+}
+
+var bars_json = function (){
+    // REQUEST BAR GEOMETRY
+    var params1 = 'service=WFS&version=1.0.0&request=GetFeature&outputFormat=application/json&srsName=EPSG:4326&';
+        params1 += 'typeName=synthesis:g01_centerpointbuffers&';
+        params1 += 'propertyName=geom,buildingid,height,part&';
+
+	// LOAD DATA
+	var validJson1;
+	var chartData1 = GetFeatureWFS( url, params1, function(validJson1) {
+        bars_json = validJson1;
+	});
+	console.log("bars_json");
+}
+
+buildings_json();
+bars_json();
+
+var loadData = function(selectedDate){
+
+    //document.getElementById("geomtype").style.visibility = "hidden";
+    // REQUEST SL0 DATA
+    var params2 = 'service=WFS&version=1.0.0&request=GetFeature&outputFormat=application/json&srsName=EPSG:4326&';
+        params2 += 'typeName=synthesis:g01_sl0_oeh&';
+        params2 += 'propertyName=datum,l_hour,occupation,exploitation&';
+        //params2 += 'cql_filter=datum\=\'2016-04-01\'';
+        params2 += 'cql_filter=datum\=\''+selectedDate+'\'';
+
+	// LOAD DATA
+	var validJson2;
+	var chartData2 = GetFeatureWFS( url, params2, function(validJson2) {
+        campusData = validJson2;
 	});
 
+    // LOAD STATISTICAL DATA
+    var params3 = 'service=WFS&version=1.0.0&request=GetFeature&outputFormat=application/json&srsName=EPSG:4326&';
+        params3 += 'typeName=synthesis:g01_sl1_oeh&';
+        params3 += 'propertyName=buildingid,datum,l_hour,occupation,exploitation&';
+        params3 += 'cql_filter=datum\=\''+selectedDate+'\'';
+
+	// LOAD DATA
+	var validJson3;
+	var chartData3 = GetFeatureWFS( url, params3, function(validJson3) {
+        buildingData = validJson3;
+	});
+	console.log("load data")
+}
+
+loadData(selectedDate);
+
+// LOAD GEOM AND DATA ONTO MAP /////////////////////////////////////////////////////////////////////////////////////////
+var sl0 = function (timeRequest){
+   	if (counter >= 1){
+   		clearr();
+   	}
+   	else {
+   		counter += 1;
+   		var timeRequest = '12:00:00Z';
+   	}
+
     // LOAD DATA TO CHART
-    setTimeout(function(){setData1(campusData,0);console.log(campusData)}, 3000);
+    setTimeout(function(){setData1(campusData);console.log(campusData);}, 1000);
 
-	// DELAY GEOMETRY LOAD
     setTimeout(function(){
-        // REQUEST REALISTIC GEOMETRY
-        var params1 = 'service=WFS&version=1.0.0&request=GetFeature&outputFormat=application/json&srsName=EPSG:4326&';
-            //params1 += 'typeName=synthesis:'+geomType+'&';
-            params1 += 'typeName=synthesis:g01_newcampusgeom&';
-            params1 += 'propertyName=geom,buildingid,height&';
-
-        // LOAD GEOMETRY
-        var validJson1;
-        var osm_buildings_Delft = GetFeatureWFS(url, params1, function(validJson1) {
-            buildings_json = validJson1;
-
-            // Color Geometry
-            for (var key in buildings_json.features){
-                for (var index in campusData.features){
-                   if (campusData.features[index].properties['l_hour'] == '09:00:00Z'){    
-                 //if (campusData.features[index].properties['l_hour'] == '\'' + timeRequest + '\''){ 
-                 //if (campusData.features[index].properties['l_hour'] == '09:00:00Z'){   
-                 //if (campusData.features[index].properties['l_hour'] == timeRequest){
-                        colorvalue = coloring((campusData.features[index].properties['exploitation']),steplist,buildingcolors,lowestvalue);
-                    }
-                }
-            buildings_json.features[key].properties.color = colorvalue;
-            buildings_json.features[key].properties.roofColor = colorvalue;
-            }
-        osmb.addGeoJSON(validJson1);
-        }) ;
-     }, 1000);
-};
-
-// FACULTY (SL1) ///////////////////////////////////////////////////////////////////////////////////////////////////////
-var sl1 = function () {
-    clearr();
-	document.getElementById("geomtype").style.visibility = "visible";
-
-// LOAD STATISTICAL DATA
-    var params2 = 'service=WFS&version=1.0.0&request=GetFeature&outputFormat=application/json&srsName=EPSG:4326&';
-        params2 += 'typeName=synthesis:g01_sl1_oeh&';
-        params2 += 'propertyName=buildingid,datum,l_hour,occupation,exploitation&';
-        //params2 += 'cql_filter=datum\=\'2016-04-12\'';
-        params2 += 'cql_filter=datum\=\''+selectedDate+'\'';
-        console.log(params2)
-
-    // LOAD DATA
-    var validJson2;
-    var chartData2 = GetFeatureWFS(url, params2, function(validJson2) {
-        buildingData = validJson2;
-    });
-
-       // REQUEST GEOMETRY TYPE
-    var param3;
-    if (geomType == 'g01_centerpointbuffers'){
-        params3 = 'service=WFS&version=1.0.0&request=GetFeature&outputFormat=application/json&srsName=EPSG:4326&';
-        params3 += 'typeName=synthesis:'+geomType+'&';
-        params3 += 'propertyName=geom,buildingid,height,part&';
-    }
-    else{
-        params3 = 'service=WFS&version=1.0.0&request=GetFeature&outputFormat=application/json&srsName=EPSG:4326&';
-        params3 += 'typeName=synthesis:'+geomType+'&';
-        params3 += 'propertyName=geom,buildingid,height&';
-
-    }
-
-    console.log(params3)
-    // DELAY GEOMETRY LOAD
-    setTimeout(function(){
-
-    // LOAD GEOMETRY
-        var validJson3;
-        var osm_buildings_Delft = GetFeatureWFS(url, params3, function(validJson3) {
-			buildings_json = validJson3;
-		});
-
-    // colour geometry
+        // COLOR GEOMETRY
         for (var key in buildings_json.features){
-            colorvalue = '#999999'
-            if (geomType == 'g01_centerpointbuffers'){
-                buildings_json.features[key].properties['height']= 1;
+            for (var index in campusData.features){
+               if (campusData.features[index].properties['l_hour'] == timeRequest){
+                    //console.log(campusData.features[index].properties['l_hour'],timeRequest);
+                    colorvalue = coloring((campusData.features[index].properties['exploitation']),buildingcolors);
+                }
             }
-            for (var index in buildingData.features){
-                 if (buildings_json.features[key].properties['buildingid'] == buildingData.features[index].properties['buildingid']
-                    //&& buildingData.features[index].properties['l_hour'] == '\'' + timeRequest + '\''){
-                    && buildingData.features[index].properties['l_hour'] == '12:00:00Z'){
-                    colorvalue = coloring((buildingData.features[index].properties['exploitation']),steplist,buildingcolors,lowestvalue);
+        buildings_json.features[key].properties.color = colorvalue;
+        buildings_json.features[key].properties.roofColor = colorvalue;
+        }
+    myData  = osmb.addGeoJSON(buildings_json);
 
-                    if (geomType == 'g01_centerpointbuffers' && buildings_json.features[key].properties['part']==2){
-                        buildings_json.features[key].properties['height'] = (14.4/(parseInt(buildingData.features[index].properties['exploitation'])))*100;
+    }, 1000);
+    console.log("reload sl0");
+}
+
+var sl1 = function (timeRequest){
+    clearr();
+
+    setTimeout(function(){
+        if (geomType == 'g01_newcampusgeom'){
+            for (var key in buildings_json.features){
+                for (var index in buildingData.features){
+                    if (buildings_json.features[key].properties['buildingid'] == buildingData.features[index].properties['buildingid']
+                        && buildingData.features[index].properties['l_hour'] == timeRequest){
+                        colorvalue = coloring(buildingData.features[index].properties['exploitation'],buildingcolors);
                     }
-                    else if (geomType == 'g01_centerpointbuffers' && buildings_json.features[key].properties['part']==1){
-                        buildings_json.features[key].properties['height'] = 144;
-                    };
-                }
-                else {}
-                if (geomType == 'g01_centerpointbuffers' && buildings_json.features[key].properties['part']==1){
-                    buildings_json.features[key].properties.roofColor = '#999999';
-                    buildings_json.features[key].properties.color = '#999999';
-                }
-                else{
                     buildings_json.features[key].properties.roofColor = colorvalue;
                     buildings_json.features[key].properties.color = colorvalue;
                 }
-
             }
+        myData = osmb.addGeoJSON(buildings_json);
+        }
 
-            osmb.addGeoJSON(buildings_json);
-        };
-    },3000);
+        else {
+            for (var key in bars_json.features){
+                for (var index in buildingData.features){
+                    if (bars_json.features[key].properties['buildingid'] == buildingData.features[index].properties['buildingid']
+                        && buildingData.features[index].properties['l_hour'] == timeRequest){
+                        colorvalue = coloring(buildingData.features[index].properties['exploitation'],buildingcolors);
+                        if (geomType == 'g01_centerpointbuffers' && bars_json.features[key].properties['part']==2){
+                            bars_json.features[key].properties['height'] = (14.4/(parseInt(buildingData.features[index].properties['exploitation'])))*100;
+                        }
+                        else if (geomType == 'g01_centerpointbuffers' && bars_json.features[key].properties['part']==1){
+                            bars_json.features[key].properties['height'] = 100;
+                        };
+                    }
+                    else {
+                    }
+                    if (geomType == 'g01_centerpointbuffers' && bars_json.features[key].properties['part']==1){
+                        bars_json.features[key].properties.roofColor = '#999999';
+                        bars_json.features[key].properties.color = '#999999';
+                    }
+                    else {
+                        bars_json.features[key].properties.roofColor = colorvalue;
+                        bars_json.features[key].properties.color = colorvalue;
+                    }
+                }
+            }
+        myData = osmb.addGeoJSON(bars_json);
+        }
+
+
+    },1000);
+    console.log("reload sl1");
 }
-
-// FLOOR (SL2) /////////////////////////////////////////////////////////////////////////////////////////////////////////
-var sl2 = function () {
-    clearr();
-	document.getElementById("geomtype").style.visibility = "hidden";
-	sl = 2;
-
-    // REQUEST FLOOR GEOMETRY
-    var params4 = 'service=WFS&version=1.0.0&request=GetFeature&outputFormat=application/json&srsName=EPSG:4326&';
-        params4 += 'typeName=synthesis:g01_sl2geom&';
-        params4 += 'propertyName=buildingid,minHeight,height,geom&';
-
-    // LOAD GEOMETRY
-    var validJson4;
-    var osm_buildings_Delft = GetFeatureWFS(url, params4, function(validJson4) {
-                    buildings_json = validJson4;
-                    osmb.addGeoJSON(validJson4);
-    });
-}
-
-// function getChartData(optionnumber){
-	// if (optionnumber == 1){
-		// var params = 'service=WFS&version=1.0.0&request=GetFeature&outputFormat=application/json&srsName=EPSG:4326&';
-			// params += 'typeName=synthesis:g01_test_rob&';
-			// params += 'propertyName=buildingid,buildingname,occupancy&';
-
-	// // LOAD DATA
-	// var validJson2;
-	// var chartData1 = GetFeatureWFS( url, params, function(validJson2) {
-		// buildingData = validJson2;
-        // osmb.addGeoJSON(validJson2);
-        // console.log('inner loop')
-	// });
-	// console.log('outerloop');
-	// return 5;
-// }}
-
-/*
-var url = 'http://localhost:8080/geoserver/synthesis/ows?';
-//var url = 'http://www.gdmc.nl:8088/geoserver/geoweb/ows?';
-
-// These are the basic parameters for a WFS request (let op: epsg is 4326 voor Leaflet WFS):
-//var params = 'service=WFS&version=2.0.0&request=GetFeature&outputFormat=application/json&srsName=EPSG:4326&';
-var params = 'service=WFS&version=1.0.0&request=GetFeature&outputFormat=application/json&srsName=EPSG:4326&';
-
-// + Specify the WFS feature type that you request from the WFS service
-// In this case the CBS buurten (=neighbourhoods) 2014:
-//params += 'typeName=geoweb:pand_2d&';
-params += 'typeName=synthesis:g01_buildingsgeom&';
-//params += 'typeName=synthesis:g01_buildingsgeom&';
-
-
-//params += 'propertyName=geovlak_4326,height&' ;
-params += 'propertyName=geom_28992,buildingid,height&' ;
-
-//synthesis:g01_buildingsgeom&maxFeatures=50
-// If problems with loading time: limit amount of features (for debug)
-//params += 'maxFeatures=400&';
-//params += 'count=4000&';
-
-//params += 'cql_filter=postcode4_max \= \'2628\'';
-//params += 'cql_filter=bouwjaar \< 1600';
-*/            

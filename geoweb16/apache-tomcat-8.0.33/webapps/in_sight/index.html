@@ -3,8 +3,13 @@
 
 <!--The head section contains metadata about the web page--------------------------------------------------------------> 
 	<head>
+		<script src="lib/chart.js"></script>
 		<script src="OSMBuildings/OSMBuildings.js"></script>
+		<!--<script src="scripts/mapTiles.js"></script>-->
 		<script src="lib/pikaday.js"></script>
+		<script src="lib/wfsGeojson.js"></script>
+		<script src="lib/localGeojson.js"></script>
+		<script src="scripts/wfs_buildings.js"></script>
 		<script src="scripts/main.js"></script>
 		<script src="scripts/buildingColor.js"></script>
 		<meta charset="UTF-8">
@@ -14,11 +19,12 @@
 		<link type="text/css" rel="stylesheet" href="OSMBuildings/OSMBuildings.css">
 		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.19.0/mapbox-gl.css' rel='stylesheet' />
 		<link rel="stylesheet" href="lib/noUiSlider.8.5.1/nouislider.min.css">
+		<link rel="stylesheet" href="lib/noUiSlider.8.5.1/nouislider.css">
 		<title>Dashboard | Project in_sight</title>
 	</head>
 <!--  checkCookie() -->
 <!--actual content starts here----------------------------------------------------------------------------------------->
-<body onload="clearr(), setLegend(), startTime()">
+<body onload="setLegend(), startTime()">
 <noscript style="font-size:40px;"><strong>Sorry, your browser does not support JavaScript!</strong></noscript>
  
 <!--HEADER------------------------------------------------------------------------------------------------------------->
@@ -34,7 +40,6 @@
 
 <!--BODY--------------------------------------------------------------------------------------------------------------->
     <div class="box box2">
-
         <!-- MENU -->
         <div class="box box2_1">
 			<h4 id="user">Welcome, user</h4>
@@ -44,14 +49,9 @@
 				<div class="sliders" id="slider1" title="Select spatial level"></div>
 				<pre id="levels">Campus   |     Building     |       Floor</pre>
 			</div>
-
-			<div id="geomtype">
-				<table>
-					<tr>
-						<td><button onclick="editGeomType('g01_newcampusgeom')">Realistic Geometry</button></td>
-						<td><button onclick="editGeomType('g01_centerpointbuffers')">Barchart Geometry</button></td>
-					</tr>
-				</table>
+			<div class="geomtype">
+					<button class="gt" onclick="editGeomType('g01_newcampusgeom')">Realistic Geometry</button>
+					<button class="gt" onclick="editGeomType('g01_centerpointbuffers')">Barchart Geometry</button>
 			</div>
 			<div id="dateSelect">
 				<h4>Select a date</h4>
@@ -91,12 +91,25 @@
 					<td>*</td>
 					<td></td>
 				</tr>
+				<tr>
+					<td>*</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>*</td>
+					<td></td>
+				</tr>
 			</table>
         </div>
-<!--
-        <!-- BUTTONS
 
-            <div class="control tilt">
+        <!-- Control buttons -->
+            
+
+        <!-- MAP -->
+        <div class="box box2_2">
+            <div id="map"></div>
+            <img id="chartsButton" src="data/icons/chartsicon.png" title="Click to open charts" onclick="toggleStats()" class="buttons">
+			<div class="control tilt">
                 <button class="dec">&#8601;</button>
                 <button class="inc">&#8599;</button>
             </div>
@@ -110,13 +123,11 @@
                 <button class="dec">-</button>
                 <button class="inc">+</button>
             </div>
-
--->
-        <!-- MAP -->
-        <div class="box box2_2">
-            <div id="map"></div>
-            <img id="chartsButton" src="data/icons/chartsicon.png" title="Click to open charts" onclick="toggleStats()"   >
-        </div>
+			<div class="errmsg">
+			<p id="err"></p>
+			 <progress id="prog" value="0" max="100"></progress> 
+			</div>
+		</div>
         
         <!-- STATISTICS -->
         <div id="stats"class="box box2_3">
@@ -130,6 +141,11 @@
                 <!-- chart 2 -->
                 <canvas id="chart2"></canvas>
             </div>
+			<h5 id="export">
+                Export data<hr>
+                <i><a class="linkk" onclick="exportImage('chart1', 'Chart 1')">&#x26C0; chart 1</i></a>
+                <i><a class="linkk" onclick="exportImage('chart2', 'Chart 2')">&#x26C0; chart 2</i></a>
+            </h5>
         </div>
 
 <!--FOOTER------------------------------------------------------------------------------------------------------------->
@@ -149,15 +165,7 @@
 <script src="lib/wNumb.js"></script>
 <script src="lib/pikaday.js"></script>
 <script src="scripts/main.js"></script>
-
-<script src="lib/chart.js"></script>
-
 <script src="scripts/chart2.js"></script>
-
-<script src="lib/wfsGeojson.js"></script>
-<script src="lib/localGeojson.js"></script>
-<script src="scripts/wfs_buildings.js"></script>
-
 <script src="lib/nouislider.js"></script>
 <script src="scripts/sliders.js"></script>
 </body>

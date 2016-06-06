@@ -38,7 +38,7 @@ function GeojsonFromWFS(url, params, styleParams) {
     GetFeatureWFS( url, params, function(validJson ) {
                 //console.log(validJson);
                 geojson.addData(validJson);
-                console.log(geojson.getLayers().length);
+                //console.log(geojson.getLayers().length);
                 } ) ;
  
  
@@ -51,22 +51,26 @@ function GetFeatureWFS(url, params, callback_handleJson) {
 
     xhr.onload = function() {
         if (xhr.status === 200) {
+            if (sl==2){
+                console.log('in the xhr function')
+                console.log(JSON.stringify(xhr));
+            }
             var validJson = tryParseJSON(xhr.responseText);
             if (validJson) {
                 callback_handleJson(validJson) ;
             } else {
-                console.log('Response is not valid json. Response is: ');
-                console.log(xhr.responseText);
+                //console.log('Response is not valid json. Response is: ');
+                //console.log(xhr.responseText);
                 handleError(url + params + ' gives output: ' + xhr.responseText) ;
             }
             
         } else {
-            console.log('Request failed.  Returned status of ' + xhr.status + ' ' + xhr.statusText );
+            //console.log('Request failed.  Returned status of ' + xhr.status + ' ' + xhr.statusText );
             handleError(url + params + ' gives error: ' + xhr.status + ' ' + xhr.statusText) ;
         }
     };
     xhr.onerror = function() {
-            console.log('Request failed.  Returned status of ' + xhr.status + ' ' + xhr.statusText );
+            //console.log('Request failed.  Returned status of ' + xhr.status + ' ' + xhr.statusText );
             handleError(url + params + ' gives error: ' + xhr.status + ' ' + xhr.statusText) ;
     };
     xhr.open('GET', encodeURI(url + params));

@@ -1,4 +1,13 @@
-buildingcolors = ["#10ffffcc", "#d9f0a3", "#addd8e", "#78c679","#31a354", "#006837"];
+buildingcolors = ["#ffffcc",    // grijs
+                    "#002066",  // dblauw
+                    "#0038b2",  // mblauw
+                    "#6696ff",  // blauw
+                    "#b2caff",  // lblauw
+                    "#caffb2",  // groen
+                    "#ffb2ca",  // lrood
+                    "#fb3a75"]; // drood
+
+var steplist = ["0% - 20%", "20% - 40%", "40% - 60%", "60% - 80%", "80% - 100%", "100% - 120%", "120% +"];
 
 //console.log(buildingcolors.length)
 
@@ -11,14 +20,16 @@ var countsteps = 20
 var counternew = 0
 var lowestvalue = 14.4
 var highestvalue = 100
-var steplist = []
 var startuplowest = 0;
 var startuphighest= 0;
 
+
+
+/*
 function startup(countsteps,counternew,lowestvalue,highestvalue,steplist,startuplowest,startuphighest){
     while (((buildingcolors.length)-1) > counternew){
         if (counternew == 0){
-            startuplowest = lowestvalue;
+            startuplowest = 0;
             startuphighest = startuplowest + countsteps;
             var addto = [startuplowest,startuphighest];
             //console.log('addto ' + addto);
@@ -44,6 +55,7 @@ function startup(countsteps,counternew,lowestvalue,highestvalue,steplist,startup
 };
 
 var x = startup(countsteps,counternew,lowestvalue,highestvalue,steplist,startuplowest,startuphighest);
+*/
 
 function setLegend(){
 	var cells = document.getElementById("legend").getElementsByTagName("td");
@@ -65,38 +77,46 @@ function setLegend(){
 	}
 }
 
-function coloring(exploitation,steplist,buildingcolors,lowestvalue) {
+function coloring(exploitation,buildingcolors) {
     var coloring2;
-    if (exploitation < lowestvalue){
-        coloring2 = '#ff6666'
+    if (exploitation < 12.08){
+        coloring2 = buildingcolors[7];
 //        console.log("exploitation " + exploitation)
 //        console.log('light green')
     }
-    else if (steplist[0][0] <= exploitation &&  exploitation < steplist[0][1]){                                      //(exploitation < 31){
-        coloring2 = buildingcolors[1]
+    else if (12.08 <= exploitation &&  exploitation <14.5){                                      //(exploitation < 31){
+        coloring2 = buildingcolors[6];
         //console.log('in the right function')
 //      console.log("exploitation " + exploitation)
 //      console.log("dark blue")
     }
-    else if (steplist[1][0] <= exploitation && exploitation < steplist[1][1]){
-        coloring2 = buildingcolors[2]
+    else if (14.5 <= exploitation && exploitation < 18.125){
+        coloring2 = buildingcolors[5];
 //        console.log("exploitation " + exploitation)
 //        console.log('light blue')
     }
-    else if (steplist[2][0] <= exploitation && exploitation < steplist[2][1]){
-        coloring2 = buildingcolors[3]
+    else if (18.125 <= exploitation && exploitation < 24.16666){
+        coloring2 = buildingcolors[4];
 //        console.log("exploitation " + exploitation)
 //        console.log('light green')
     }
-    else if (steplist[3][0] <= exploitation && exploitation < steplist[3][1]){
-        coloring2 = buildingcolors[4]
+    else if (24.16666 <= exploitation && exploitation < 36.25){
+        coloring2 = buildingcolors[3];
 //        console.log("exploitation " + exploitation)
 //        console.log('dark green')
     }
-    else if (steplist[4][0] <= exploitation){
-        coloring2 = buildingcolors[5]
+    else if (36.25 <= exploitation && exploitation < 72.5){
+        coloring2 = buildingcolors[2];
 //        console.log("exploitation " + exploitation)
 //        console.log('yellow')
     }
+    else if (72.5 <= exploitation){
+        coloring2 = buildingcolors[1];
+    }
+    else {
+        coloring2 = buildingcolors[0];
+    }
+//    console.log(coloring2)
+//    console.log(exploitation)
     return coloring2
 }

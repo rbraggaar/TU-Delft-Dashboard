@@ -18,10 +18,12 @@
 .noUi-value {
 	position: absolute;
 	text-align: center;
+	font-family:Verdana;
 }
 .noUi-value-sub {
 	color: #ccc;
-	font-size: 10px;
+	font-size: 9px;
+	font-family:Verdana;
 }
 
 /* Markings;

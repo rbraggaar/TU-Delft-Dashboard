@@ -7,6 +7,18 @@ html, body {
     height: 100%;
 }
 
+.buttons {
+    cursor: pointer;
+    transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+.buttons:hover {
+        box-shadow:2px 2px 5px grey;
+}
+
+
 /*BOX CLASS************************************************************************************************************/
 pre {
 	font-family: Helvetica, Verdana, sans-serif;
@@ -30,7 +42,7 @@ h4 {
     clear:both;
     width: 100%;
     position:fixed;
-	z-index:1;
+	z-index:100;
 }
 
 /*IMAGE*/
@@ -53,6 +65,7 @@ h4 {
   position: absolute;
   top:-5px;
   margin-top:10px;
+
 }
 
 /*BODY*****************************************************************************************************************/
@@ -81,42 +94,45 @@ h4 {
 #slider1total {
 	position: relative;
 	top: 0px;
+
 }
 
 #slider1 {
 	position: relative;
-	width: 90%;
-	margin: 20px;
-	top:-92px;
+	width: 100%;
+	top:-83px;
+	left:-5px;
+	margin:20px;
 }
 
 #slider1bg {
 	position: relative;	
 	top: -15px;
-	padding: 10px;
-	width: 100%;
-	left:-5px;
+	width: 110%;
+	left:-11px;
 }
 
 #levels {
     position: relative;
-    top:-90px;
+    top:-80px;
     left:10px;
 }
 
 #slider2 {
 	top:15px;
-	width: 90%;
+	width: 100%;
 	margin:20px;
+	left:-5px;
 }
 
-#geomtype {
-	position: absolute;
-	top: 225px;
+.geomtype {
+	position: relative;
+	top: -90px;
 	visibility:hidden;
 }
-
-
+.gt:hover {
+	box-shadow:2px 2px 5px grey;
+}
 
 /* DATE SELECTOR ------------- */
 #dateSelect {
@@ -154,7 +170,7 @@ h4 {
 
 #legendt {
 	position: relative;
-	top: 270px;	
+	top: 209px;	
 }
 
 #legend td {
@@ -164,10 +180,20 @@ h4 {
 #legend {
 	border: 1px solid black;
 	position: absolute;
-	top: 640px;
+	top: 600px;
 	font-size: 12px;
     width: 100%;
     text-align:center;
+}
+
+.errmsg {
+	width:60%;
+}
+
+#prog {
+	visibility:hidden;
+	width:100%;
+	z-index:9;
 }
 
 /*MAP*/
@@ -176,7 +202,7 @@ h4 {
     top:0px;
     left: 0px;
     width: 83%;
-    height: 790px;
+    height: 800px;
     float:right;
 }
 
@@ -184,6 +210,7 @@ h4 {
 #stats {
 	visibility:hidden;
 	background-color: white;
+	z-index:5;
 }
 
 .box2_3 {
@@ -214,16 +241,24 @@ h4 {
 	width: 600px;
 }
 
+#export {
+	position:absolute;
+	float:right;
+	top: 700px;
+	margin-left:15px;
+}
+
 /*FOOTER***************************************************************************************************************/
 .box3 {
     position:absolute;
-    top:790px;
+    top:800px;
     height:70px;
     width:100%;
     background-color:#FF6133;
     color:white;
     text-align: end;
     clear:both;
+	z-index:10;
 }
 
 .box3_1 {
@@ -241,24 +276,30 @@ h4 {
     color:#FFAB93;
 }
 
+
+a.linkk:hover {
+    text-decoration: underline;
+    cursor:pointer;
+}
 /*MAP BUTTONS**********************************************************************************************************/
 .control {
-    /*BUTTON POSITION*/
     position: absolute;
-    z-index: 1000;
-    top:1000px;
+	float:left;
+	top: 720px;
+    z-index: 50;
+
 }
 
 .control.tilt {
-    top: 0;
+   	left:350px;
 }
 
 .control.rotation {
-    top: 45px;
+	left:450px;
 }
 
 .control.zoom {
-    top: 90px;
+	left:550px;
 }
 
 .control.zoom button{
@@ -283,15 +324,19 @@ h4 {
     cursor: pointer;
 }
 
+.errmsg {
+	position:absolute;
+	top: 725px;
+	left: 690px;
+}
 
-
-.noUi-horizontal.noUi-extended {
+.noUi-extended {
 	padding-right: 32px;
 }
-.noUi-horizontal.noUi-extended .noUi-handle {
+.noUi-extended .noUi-handle {
 	left: -1px;
 }
-.noUi-horizontal.noUi-extended .noUi-origin  {
+.noUi-extended .noUi-origin  {
 	right: -32px;
 }
 

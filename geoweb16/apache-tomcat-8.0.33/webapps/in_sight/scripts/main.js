@@ -1,6 +1,8 @@
 // VALUE FOR THE DATE CQL FILTER
 var selectedDate = '2016-04-01';
+var buildingDataSL0;
 
+var myData = 0;
 // CHECK IF JAVA IS ENABLED (NEEDED FOR CORRECT WORKING OF THE DASHBOARD)
 // if (navigator.javaEnabled() == true){
 	// var jmsg = "&#10004;";
@@ -10,8 +12,10 @@ var selectedDate = '2016-04-01';
 // }	
 //document.getElementById("javaEnabled").innerHTML = "Java installed: " + jmsg;
 
+// default selected button is realistic geometry
+document.getElementsByClassName("gt")[0].style.border = "4px solid #FF6133";
 
-// STORE USER INFO IN COOKIES (SAVE SETTINGS FOR RE-USE) ///////////////////////////////////////////////////////////////
+// STORE USER INFO IN COOKIES (SAVE SETTINGS FOR RE-USE)
 function setCookie(cname,cvalue,exdays) {
     var d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
@@ -46,7 +50,7 @@ function checkCookie() {
     }
 }
 
-// DATE SELECTOR ///////////////////////////////////////////////////////////////////////////////////////////////////////
+// DATE SELECTOR 
 var picker = new Pikaday({ 
 	field: document.getElementById('datepicker'),
     onSelect: function() {
@@ -54,21 +58,24 @@ var picker = new Pikaday({
 		},
 	onClose: function() {
 		selectedDate = this.getMoment().format('Y-MM-DD');
-		//console.log(selectedDate);
 			if (sl == 0){
-        	    sl0();
+        	    loadData(selectedDate);
+        	    sl0(timeRequest);
         	}
         	else if (sl == 1){
-        	    sl1();
+        	    sl1(timeRequest);
+				setData1([]);
+				osmb.highlight(null);
         	}
         	else if (sl == 2){
-        	    sl2();
+        	    sl2(timeRequest);
         	}
+			//clearr();
 		},
 	defaultDate: new Date(2016, 03, 01),
 	setDefaultDate: true,
 	minDate: new Date(2016, 03, 01),
-	maxDate: new Date(2016, 03, 30)
+	maxDate: new Date(2016, 04, 31)
  });
 
 // TOGGLE STATISTICS ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -92,52 +99,35 @@ var map = new GLMap('map', {
 		right: 4.3985,
 		bottom: 51.9939
 	},
-    minZoom: 12,
-    maxZoom: 20,
     tilt: 35,
     state: false // stores map position/rotation in url
 });
 
-/*
 // CREATE OBJECT FOR OSM BUILDINGS
 var osmb = new OSMBuildings({
     baseURL: './OSMBuildings',
-    minZoom: 15,
-    maxZoom: 22,
-    effects: ['shadows'],
+    //maxZoom: 22,
+	//maxNativeZoom: 20,
+    effects: ['shadows']
 }).addTo(map);
 
-
 osmb.addMapTiles(
-    'https://{s}.tiles.mapbox.com/v3/osmbuildings.kbpalbpk/{z}/{x}/{y}.png',
-    //'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
+    //'https://{s}.tiles.mapbox.com/v3/osmbuildings.kbpalbpk/{z}/{x}/{y}.png',
+    'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
     {}
 );
-*/
+
+//osmb.date(new Date(2015,15,1,10,30));
 
 function clearr(){
-    osmb={};
-	osmb = new OSMBuildings({
-        baseURL: './OSMBuildings',
-        minZoom: 15,
-        maxZoom: 22,
-        effects: ['shadows'],
-    }).addTo(map);
-
-
-    osmb.addMapTiles(
-        //'https://{s}.tiles.mapbox.com/v3/osmbuildings.kbpalbpk/{z}/{x}/{y}.png',
-        'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
-    {}
-    );
-
+    myData.destroy();
 };
 
 //ADD ORIGINAL OSMB BUILDINGS
 //osmb.addGeoJSONTiles('https://{s}.data.osmbuildings.org/0.2/anonymous/tile/{z}/{x}/{y}.json');
 
-// EVENT HANDLERS ////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// EVENT HANDLERS
 map.on('pointermove', function(e) {
     var id = osmb.getTarget(e.x, e.y, function(id) {
         if (id) {
@@ -153,75 +143,36 @@ map.on('pointerdown', function(e) {
     var id = osmb.getTarget(e.x, e.y, function(id) {
         var selectlist = [];
         if (id) {
+			osmb.highlight(id, '#f08000');
+			// get id (according to TU Delft) of selected building
 			var selectedId = buildings_json.features.find(function(item) {return item.id === id;});
 			setTimeout(function(){
 			    var buildingId = selectedId.properties['buildingid'];
-                //var buildingdata1 = buildingData.features.find( function (item) { return item.properties.buildingid === buildingId ; });
+                // build loop
+                var buildingdata1 = buildingData.features.find(function(item){ 
+				return item.properties.buildingid === buildingId;});
+                // build in loop to append all data
+//				console.log('buildingdata1: ');
+//				console.log(buildingdata1);
+//				console.log(buildingData);
 			    setData1(buildingData, buildingId);
-			},1000)
+				},1000);
 
-// POPUP
-//            var map = new mapboxgl.Map({
-//                container: 'map',
-//                style: 'mapbox://styles/mapbox/streets-v8',
-//                center: [-96, 37.8],
-//                zoom: 3
-//            });
-//
-//
-//			var infoBox = new mapboxgl.Popup({closeOnClick: false})
-//                console.log("HHELLLEEEUUUUU")
-//                .setLngLat([e.x, e.y])
-//                .setHTML('<h1>Hello World!</h1>')
-//                .addTo(map);
-
-
-
-// highlighting
-//            console.log(buildings_json.features[0])
-//            for (var key in buildings_json.features){
-//                //console.log(buildings_json[key])
-//                if (buildings_json.features[key].properties['buildingid'] == buildingId) {
-//					selectlist.push(buildings_json.features[key].id)
-//                }
-//                //console.log('this is the key'+ buildings_json[key])
-//            }
-//            for (var item in selectlist){
-//                buildings_json.features[item].geometry.color = '#f08000';
-//                console.log(buildings_json.features[item]);
-//				console.log(selectlist[item])
-//                console.log(item)
-//				osmb.highlight(selectlist[item], '#f08000')
-//            };
-//            console.log('selectlist'+ selectlist)
-//
-//            var selectlist = buildings_json
-
-            osmb.highlight(id, '#f08000');
-			// get id (according to TU Delft) of selected building
-
-			// LOAD DATA TO CHART
-            //setTimeout(function(){setData1(buildingData)}, 3000);
-            //setTimeout(function(){setData2(buildingData)}, 3000);
-
-            //console.log(features[0].properties[buildingid])
-            //console.log(id.properties.buildingid)
-            //divPopUp(id, e)
-            //console.log(validJson.features[0].id)
-			
-			//FILL CHARTS WITH DATA
-            //setData1(occupancy1);
-
-          } 
+			// POPUP
+   
+          }
         else {
             document.body.style.cursor = 'default';
             osmb.highlight(null);
-            }
+        }
     });
 });
 
-// MAP CONTROL BUTTONS (DISABLED) //////////////////////////////////////////////////////////////////////////////////////
 
+//buildingDataSL0 = buildings_json.features.properties;
+//console.log(buildingDataSL0);
+
+// MAP CONTROL BUTTONS
 var controlButtons = document.querySelectorAll('.control button');
 
 for (var i = 0, il = controlButtons.length; i < il; i++) {
@@ -231,7 +182,7 @@ for (var i = 0, il = controlButtons.length; i < il; i++) {
         var direction = button.classList.contains('inc') ? 1 : -1;
         var increment;
         var property;
-
+		var zoomlevels = [10,20];
         if (parentClassList.contains('tilt')) {
             property = 'Tilt';
             increment = direction*10;
@@ -242,6 +193,7 @@ for (var i = 0, il = controlButtons.length; i < il; i++) {
         }
         if (parentClassList.contains('zoom')) {
             property = 'Zoom';
+			//if (property < zoomlevels[1] && property > zoomlevels [0])
             increment = direction*1;
         }
         if (property) {
@@ -250,56 +202,29 @@ for (var i = 0, il = controlButtons.length; i < il; i++) {
     });
 }
 
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/*
-var wallColor, roofColor, shadows = true;
-
-var setColor = function(e){
-    //wallColor = e.style.backgroundColor;
-    //roofColor = e.style.backgroundColor;
-    osmb.style({ wallColor:"blue", roofColor:roofColor, shadows:shadows });
+// Export charts function
+function exportImage(id, fileName){
+	fileName += " (" + selectedDate + ")";
+	var canvasElement = document.getElementById(id);
+	var MIME_TYPE = "image/png";
+	var imgURL = canvasElement.toDataURL(MIME_TYPE);
+	var dlLink = document.createElement('a');
+	dlLink.download = fileName;
+	dlLink.href = imgURL;
+	dlLink.dataset.downloadurl = [MIME_TYPE, dlLink.download, dlLink.href].join(':');
+	document.body.appendChild(dlLink);
+	dlLink.click();
+	document.body.removeChild(dlLink);
 }
-*/
-/*
-  function divPopUp(id, e){
 
-        var params = 'featureid='+id ;
+function progr(){
+	document.getElementById("prog").style.visibility = "visible";
+	document.getElementById("prog").style.visibility = "hidden";
+}
+// for (var i = 0; i <= 100; i++){
+	// setTimeout(function(),500){
+	// document.getElementById("progress").value = String(i);
+	// })
+// }
 
-        GetFeatureWFS( url, params, function(validJson ) {
-                console.log(validJson);
-
-                if (validJson){
-
-                    var content = '<b>'+ validJson.features[0].id +'</b>' ;
-                    content += '<table>' ;
-                    content += '<tr>' ;
-                    //$.each(feature.properties, function(key, value) {
-                    for(key in validJson.features[0].properties){
-                        //content += '<tr><td>'+ key +'</td><td>'+  validJson.features[0].properties[key] +'</td></tr>' ;
-                        content += '<td>'+ key +'</td>' ;
-
-                    //});
-                    }
-                    content += '</tr>' ;
-                    content += '<tr>' ;
-                    for(key in validJson.features[0].properties){
-                        //content += '<tr><td>'+ key +'</td><td>'+  validJson.features[0].properties[key] +'</td></tr>' ;
-
-                        content += '<td>'+ validJson.features[0].properties[key] +'</td>' ;
-                    //});
-                    }
-                    content += '</tr>' ;
-                    content += '</table>' ;
-
-                    infoDiv.innerHTML=content ;
-                    infoDiv.style.display = "block" ;
-                    //infoDiv.style.left =  eval(e.x)+"px" ;
-                    //infoDiv.style.top = eval(e.y)+"px" ;
-
-                }
-
-        });
-
-  }
-  */
+	
