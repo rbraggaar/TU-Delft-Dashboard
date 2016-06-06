@@ -156,8 +156,8 @@ map.on('pointerdown', function(e) {
 			var selectedId = buildings_json.features.find(function(item) {return item.id === id;});
 			setTimeout(function(){
 			    var buildingId = selectedId.properties['buildingid'];
-                var buildingdata1 = buildingData.features.find( function (item) { return item.properties.buildingid === buildingId ; });
-			    setData1(buildingdata1, buildingId);
+                //var buildingdata1 = buildingData.features.find( function (item) { return item.properties.buildingid === buildingId ; });
+			    setData1(buildingData, buildingId);
 			},1000)
 
 // POPUP
