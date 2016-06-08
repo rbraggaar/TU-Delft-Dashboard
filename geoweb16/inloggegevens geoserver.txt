@@ -1,2 +1,0 @@
-un: admin
-pw: geoserver
