@@ -7,4 +7,4 @@
 <li>start the server</li>
 <li>open localhost:8080/in_sight in your web browser</li></ol>
 
-<a href="mailto:insight.tudelft@gmail.com">Mail us!</a>
+<a href="mailto:insight.tudelft@gmail.com?Subject=TU Delft Dashboard">Mail us!</a>
